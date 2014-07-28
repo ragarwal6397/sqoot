@@ -1,0 +1,1821 @@
+<!DOCTYPE html>
+<!-- deal: gig_application_layout@v4.0.2 ✔ -->
+<!--[if lt IE 7]> <html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>    <html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class=""> <!--<![endif]-->
+  <head data-app="deal" data-country="US" data-language="en" data-locale="en_US" data-domain=".groupon.com">
+    <title>The Body Shop  Deal of the Day | Groupon </title>
+    <meta charset="utf-8">
+    <link href="//www.groupon.com/layout/assets/gig-fonts-latin-v2.2.4.css" rel="stylesheet" type="text/css" id="ls-fonts" />
+
+      <link href="//www.groupon.com/layout/assets/gig_application_layout-v4.0.2-3765fafa98.css" rel="stylesheet" type="text/css" id="gig-ltr" />
+    <script>
+      BOOMR = {};
+      BOOMR["t_lstart"] = new Date().getTime();
+      var collectOnload = function(){
+        BOOMR["t_lonload"] = new Date().getTime();
+      }
+      var addListener = function(sType){
+        if(window.addEventListener) {
+          window.addEventListener(sType, collectOnload, false);
+        } else if(window.attachEvent){
+          window.attachEvent("on"+sType, collectOnload);
+        }
+      }
+      if("onpagehide" in window) {
+        addListener("pageshow");
+      } else {
+        addListener("load");
+      }
+    
+      var applicationConfig =
+        
+    {}
+;
+    </script>
+    <script>
+      window.Groupon || (window.Groupon = {});
+      Groupon.division = {"defaultLocale":"en","name":"San Jose","timezone":"Pacific Time (US & Canada)","country":"USA","id":"san-jose","areas":[],"lng":-121.895,"timezoneIdentifier":"America/Los_Angeles","lat":37.3394,"state":{"abbreviation":"CA"},"selectCurrentDivision":"selected"};
+      Groupon.Performance = {};
+      Groupon.Performance.boomerangUrl = "//www.groupon.com/layout/assets/boomerang-0.9.3-basic.js";
+      Groupon.CartTranslations = {"cart":{"cart":"Cart","desc":"Your Cart","quantity":"Qty","price":"Price","subtotal":"Subtotal","view_cart":"View Cart","empty_cart":"Your Shopping Cart is Empty!","empty_text":"Time to fill this bad boy with great products like gadgets, electronics, housewares, gifts and other great offerings from","groupon_goods":"Groupon Goods"}};
+      Groupon.endpoints =
+      { deals: "//api.groupon.com/v2/deals/autocomplete?client_id=65805330B9C8645F78F4FD027925D3C8"
+      , locations: "//api.groupon.com/v2/locations/autocomplete?client_id=65805330B9C8645F78F4FD027925D3C8"
+      };
+    </script>
+    <script>(function(w) {
+    
+    var config = {},
+      page;
+    config.page = config.page || {};
+    page = config.page;
+    page.division = "san-jose";
+    page.country = "US";
+    page.type = "deals/show";
+    page.channel = "main" || page.channel || "main";
+page.app = "deal";
+config.cookieDomain = ".groupon.com" || ".groupon.com";
+    w.Optimize = { suiteData:
+    { config:       config
+    , app:          page.app
+    , cookieDomain: config.cookieDomain
+    , pageType:     page.type
+    , division:     page.division
+    , country:      page.country
+    , channel:      page.channel
+    }}; })(window)</script>
+    <script>
+      Optimize.finchConfig = (function () {
+        var appConfig =
+            {"mygroupons":{"experiments":{"FirstComeFirstServeSocialGifting":{"name":"FirstComeFirstServeSocialGifting","tracking":false,"variants":["gifting"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"api-mobile-all-postpurchasedeals":{"experiments":{"postPurchaseDeals":{"name":"postPurchaseDeals","tracking":false,"variants":["on","on"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"scheduler-book-online-text":{"experiments":{"ShowBookOnlineText":{"name":"ShowBookOnlineText","tracking":false,"variants":["Display"],"guards":[{"name":"on_deal_or_division_page","parameters":null},{"name":"scheduler_deal","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"performance-rollout":{"experiments":{"BoomerangMonitoring":{"name":"BoomerangMonitoring","tracking":false,"variants":["Boomerang"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"RandomDiversion"},"unsubscribe-flow":{"experiments":{"NewModals2":{"name":"NewModals2","tracking":true,"variants":["Feedback"],"guards":[{"name":"on_sub_center_with_division","parameters":null}],"bucket_min":900,"bucket_max":999,"buckets":"900..999"}},"diversion_type":"CookieDiversion"},"now-occurrences":{"experiments":{"Occurrences":{"name":"Occurrences","tracking":false,"variants":["Standard"],"guards":[{"name":"on_now_page","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"api-mobile-all-goods1205":{"experiments":{"goods1205":{"name":"goods1205","tracking":false,"variants":["largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"api-mobile-all-featureddeals1205":{"experiments":{"featuredDeals1205":{"name":"featuredDeals1205","tracking":false,"variants":["largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards","largeDealCards"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"now-search-service":{"experiments":{"NowRelevanceSwitch":{"name":"NowRelevanceSwitch","tracking":true,"variants":["Original","RelevanceService"],"guards":[{"name":"division_is_enabled_for_now","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"transaction-succeeded-email":{"experiments":{"EmailsWithRankedDeals":{"name":"EmailsWithRankedDeals","tracking":true,"variants":["Control","WithRankedDeals"],"bucket_min":0,"bucket_max":99,"buckets":"0..99"}},"diversion_type":"CookieDiversion"},"unsubscribe-channel-flow":{"experiments":{"ChannelNewModals":{"name":"ChannelNewModals","tracking":false,"variants":["ChannelFeedback"],"guards":[{"name":"on_sub_center_with_channel","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"performance-boomerang":{"experiments":{"BoomerangDNS":{"name":"BoomerangDNS","tracking":true,"variants":["Control","Enable_dns"],"bucket_min":0,"bucket_max":9,"buckets":"0..9"},"BoomerangBW":{"name":"BoomerangBW","tracking":true,"variants":["Control","Enable_bandwidth"],"bucket_min":800,"bucket_max":809,"buckets":"800..809"}},"diversion_type":"RandomDiversion"},"local-header":{"experiments":{"ShowCategoriesOnDealPages":{"name":"ShowCategoriesOnDealPages","tracking":false,"variants":["ShowCategories"],"guards":[{"name":"inBrowseExperiment","parameters":null},{"name":"isEligibleForCategoryNav","parameters":null},{"name":"onBrowseOrDealPages","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"new-header-and-all-deals-vs-browse":{"experiments":{"LocalNavHeaderWithBrowseLink":{"name":"LocalNavHeaderWithBrowseLink","tracking":false,"variants":["LocalNavWithBrowseLink"],"guards":[{"name":"division_enabled_for_browse","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"sanity-check":{"experiments":{"SanityCheck":{"name":"SanityCheck","tracking":true,"variants":["SanityCheck"],"bucket_min":0,"bucket_max":19,"buckets":"0..19"}},"diversion_type":"CookieDiversion"},"LimitedDeals":{"experiments":{"LimitedDeals":{"name":"LimitedDeals","tracking":false,"variants":["LimitedDealsVariant"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"browse-as-home-page":{"experiments":{"BrowseAsHomePage":{"name":"BrowseAsHomePage","tracking":false,"variants":["RedirectToBrowse"],"guards":[{"name":"onDivisionPage","parameters":null},{"name":"inBrowseExperiment","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"new-goods-detail-page":{"experiments":{"GoodsDetailPage":{"name":"GoodsDetailPage","tracking":false,"variants":["New"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"GiftingDealMixerWeighting":{"experiments":{"GiftingDealMixerWeighting":{"name":"GiftingDealMixerWeighting","tracking":true,"variants":["NoWeighting","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3","Strategy_3"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"keyword-bar-autocomplete":{"experiments":{"KeywordBarAutocomplete":{"name":"KeywordBarAutocomplete","tracking":false,"variants":["Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete"],"guards":[{"name":"inBrowseExperiment","parameters":null},{"name":"onBrowseOrDealPages","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"location-bar-autocomplete":{"experiments":{"LocationBarAutocomplete":{"name":"LocationBarAutocomplete","tracking":false,"variants":["Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete","Autocomplete"],"guards":[{"name":"inBrowseExperiment","parameters":null},{"name":"onBrowseOrDealPages","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"gift-wizard":{"experiments":{"GiftWizard":{"name":"GiftWizard","tracking":false,"variants":["TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery","TwoUpScheduledDelivery"],"guards":[{"name":"on_checkout_or_edit_confirmation_page","parameters":null},{"name":"not_on_ie8","parameters":null},{"name":"not_on_ie7","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"local-header-variants":{"experiments":{"CategoryNavVariants":{"name":"CategoryNavVariants","tracking":false,"variants":["ShowCategoriesAndNewDeals"],"guards":[{"name":"inBrowseExperiment","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"giftable-occasions-pull-ads-position":{"experiments":{"GiftableOccasionsPullAdsPosition":{"name":"GiftableOccasionsPullAdsPosition","tracking":false,"variants":["ShowAfterGiftFinder"],"guards":[{"name":"on_brwose_enabled_division?","parameters":null},{"name":"on_giftable_occasions_page?","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"GsmEmailSubscription":{"experiments":{"GsmEmailSubscriptionExperiment":{"name":"GsmEmailSubscriptionExperiment","tracking":true,"variants":["control","subModalContinue","subModal3Continue","subModal3ContinueSocial"],"guards":[{"name":"on_gsm_platform_page","parameters":null},{"name":"user_has_no_sub_cookie","parameters":null},{"name":"request_from_normal_seo","parameters":null},{"name":"not_explicitly_skip_modal","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"GiftFinderOnGiftableOccasions":{"experiments":{"GiftFinderOnGiftableOccasions":{"name":"GiftFinderOnGiftableOccasions","tracking":false,"variants":["GiftableOccasions"],"guards":[{"name":"on_giftable_occasions_page","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"goods-gift-message":{"experiments":{"GiftMessage":{"name":"GiftMessage","tracking":false,"variants":["GiftMessage"],"guards":[{"name":"onGoodsCheckoutOrDealPages","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"browse-goods-layout":{"experiments":{"DealCardLayout":{"name":"DealCardLayout","tracking":false,"variants":["TwoUp"],"guards":[{"name":"onBrowseGoodsPage","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"hide-reserve-tab":{"experiments":{"HideReserveTabForUsers":{"name":"HideReserveTabForUsers","tracking":false,"variants":["ShowReserveTab"],"guards":[{"name":"division_enabled_for_reserve","parameters":null},{"name":"not_subscription_page","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"CategoriesOnDealPages":{"experiments":{"CategoriesOnGoodsDealPages":{"name":"CategoriesOnGoodsDealPages","tracking":false,"variants":["ShowCategoriesOnGoodsDealPages"],"guards":[{"name":"on_goods_deal","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"VariationSelectorWidget":{"experiments":{"VariationSelectorWidget":{"name":"VariationSelectorWidget","tracking":false,"variants":["NewVariationSelectorWidget"],"guards":[{"name":"on_goods_deal","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"reserve-landing-hero-image":{"experiments":{"ReserveLandingSwitchHeroText":{"name":"ReserveLandingSwitchHeroText","tracking":true,"variants":["ShowVariant2","Control","ShowVariant3"],"guards":[{"name":"division_enabled_for_reserve","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"checkout-itier":{"experiments":{"BookingEngine":{"name":"BookingEngine","tracking":true,"variants":["PrePurchaseWithBuyButton","PrePurchaseWithBuyButton","PrePurchaseWithBuyButton","PrePurchaseWithBuyButton","PrePurchaseWithBuyButton","PrePurchaseWithBuyButton","PrePurchaseWithBuyButton","PrePurchaseWithBuyButton","PrePurchaseWithBuyButton"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"DealOptionImages":{"experiments":{"DealOptionImages":{"name":"DealOptionImages","tracking":false,"variants":["ShowDealOptionImages"],"guards":[{"name":"on_goods_deal_with_option_images","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"CSHelpWizardReturnability":{"experiments":{"CSReturnability":{"name":"CSReturnability","tracking":false,"variants":["ShowReturnItemButton"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"VariationSelectorWidgetOnGLivePage":{"experiments":{"VariationSelectorWidgetOnGLivePage":{"name":"VariationSelectorWidgetOnGLivePage","tracking":true,"variants":["NewVariationSelectorWidget","OldVariationSelectorWidget"],"bucket_min":830,"bucket_max":929,"buckets":"830..929"}},"diversion_type":"CookieDiversion"},"booking-engine-myreservations":{"experiments":{"BookingEngine-MyReservations":{"name":"BookingEngine-MyReservations","tracking":false,"variants":["MyReservations"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"itier-my-profile":{"experiments":{"ItierMyProfile":{"name":"ItierMyProfile","tracking":false,"variants":["itier"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"PromNight":{"experiments":{"PromNightHeaderV2":{"name":"PromNightHeaderV2","tracking":false,"variants":["showV2"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"touch-deal-ita-redirect":{"experiments":{"mobileRedirect":{"name":"mobileRedirect","tracking":true,"variants":["disable"],"bucket_min":9999,"bucket_max":9999,"buckets":"9999..9999"}},"diversion_type":"CookieDiversion"},"itier-seo-pages-subscription":{"experiments":{"itier-seo-pages-subscription-experiment":{"name":"itier-seo-pages-subscription-experiment","tracking":true,"variants":["none"],"bucket_min":0,"bucket_max":332,"buckets":"0..332"}},"diversion_type":"CookieDiversion"},"Iovation":{"experiments":{"IovationBlackbox":{"name":"IovationBlackbox","tracking":false,"variants":["Treatment"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"GoodsBrowsePageLayout":{"experiments":{"GoodsBrowsePageLayout":{"name":"GoodsBrowsePageLayout","tracking":true,"variants":["megaMindHome"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"PromNightGifts":{"experiments":{"PromNightGifts":{"name":"PromNightGifts","tracking":false,"variants":["hide"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"touch-sendAsGift1311INTL":{"experiments":{"sendAsGift1311INTL":{"name":"sendAsGift1311INTL","tracking":true,"variants":["on","on","on","on","on","on","on","on","on","on"],"guards":[{"name":"is_eu_platform?","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"getaways-mrcheckout":{"experiments":{"getaways-mrcheckout":{"name":"getaways-mrcheckout","tracking":true,"variants":["mrcheckout"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"homepage-closed-loop":{"experiments":{"ClosedLoopDealTypes":{"name":"ClosedLoopDealTypes","tracking":true,"variants":["ClosedLoopCTA"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"ShowHolidayEmailThemes":{"experiments":{"ShowHolidayEmailThemes":{"name":"ShowHolidayEmailThemes","tracking":false,"variants":["enable"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"api-mobile-ipad-multioptions1307US":{"experiments":{"multioptions1307US":{"name":"multioptions1307US","tracking":true,"variants":["on","on"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"UGCPostRedemptionSurveyMobile":{"experiments":{"MaybeNextTimeImprovements":{"name":"MaybeNextTimeImprovements","tracking":true,"variants":["LandInTextModal"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"pull-gsm-merchant-match":{"experiments":{"PullGsmMerchantMatch":{"name":"PullGsmMerchantMatch","tracking":true,"variants":["Control","MerchantMatch"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"pull-gsm-merch-carousel":{"experiments":{"GSMMerchCarousel":{"name":"GSMMerchCarousel","tracking":true,"variants":["Control","ShowMerchCarousel"],"bucket_min":0,"bucket_max":499,"buckets":"0..499"}},"diversion_type":"CookieDiversion"},"subscription-flow-banner":{"experiments":{"subscription-flow-banner-experiment":{"name":"subscription-flow-banner-experiment","tracking":true,"variants":["subscription_banner_0"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"touch-shoppingCart0220USCA":{"experiments":{"shoppingCart0220USCA":{"name":"shoppingCart0220USCA","tracking":true,"variants":["Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","Control","on"],"guards":[{"name":"is_us_platform?","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"touch-shoppingCartDealDetail0220USCA":{"experiments":{"shoppingCartDealDetail0220USCA":{"name":"shoppingCartDealDetail0220USCA","tracking":true,"variants":["Control","on"],"guards":[{"name":"is_us_platform?","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"touch-shoppingCartBuyButton0220USCA":{"experiments":{"shoppingCartBuyButton0220USCA":{"name":"shoppingCartBuyButton0220USCA","tracking":true,"variants":["Control","on"],"guards":[{"name":"is_us_platform?","parameters":null}],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"subscription-flow-seo-division-override":{"experiments":{"subscription-flow-seo-division-override-experiment":{"name":"subscription-flow-seo-division-override-experiment","tracking":true,"variants":["none"],"bucket_min":0,"bucket_max":332,"buckets":"0..332"}},"diversion_type":"CookieDiversion"},"OccasionsInAppMessages":{"experiments":{"OccasionsInAppMessages":{"name":"OccasionsInAppMessages","tracking":true,"variants":["disabled","enabled","enabled","enabled","enabled"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"deal-page-login-modal":{"experiments":{"DealPageLoginModal":{"name":"DealPageLoginModal","tracking":true,"variants":["enable"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"subscription-flow-sub-save":{"experiments":{"subscription-flow-sub-save-experiment":{"name":"subscription-flow-sub-save-experiment","tracking":true,"variants":["subscription_fullScreen_2_subSave"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"subscription-flow-non-sub-save":{"experiments":{"subscription-flow-non-sub-save-experiment":{"name":"subscription-flow-non-sub-save-experiment","tracking":true,"variants":["subscription_fullScreen_2"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"pull-pagination-map":{"experiments":{"PullPaginationMap":{"name":"PullPaginationMap","tracking":true,"variants":["Pagination","PaginationStaticMap"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"subscription-resubscribe":{"experiments":{"subscription-resubscribe":{"name":"subscription-resubscribe","tracking":true,"variants":["subscription_fullScreen_2"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"urgency-pricing":{"experiments":{"UrgencyPricing":{"name":"UrgencyPricing","tracking":true,"variants":["Control","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing","DisplayUrgencyPricing"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"GoodsL2CategoriesPages":{"experiments":{"GoodsL2Categories":{"name":"GoodsL2Categories","tracking":true,"variants":["Treatment"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"subscription-flow-geocat":{"experiments":{"subscription-flow-geocat-experiment":{"name":"subscription-flow-geocat-experiment","tracking":true,"variants":["subscription_modalDialog_7_showClose","none"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"checkout-shipping-modal":{"experiments":{"reduceClicksOnShippingModal":{"name":"reduceClicksOnShippingModal","tracking":true,"variants":["control","active"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"Goods-HP-Ideeli-Link":{"experiments":{"Goods-HP-Ideeli-Link":{"name":"Goods-HP-Ideeli-Link","tracking":true,"variants":["Control","Treatment","Treatment","Treatment","Treatment","Treatment","Treatment","Treatment","Treatment","Treatment"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"}}
+        
+;
+        var layoutConfig =
+          {"itier-seo-pages-subscription":{"experiments":{"itier-seo-pages-subscription-experiment":{"name":"itier-seo-pages-subscription-experiment","buckets":"0..332","bucket_min":0,"bucket_max":332,"tracking":true,"variants":["none"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"PromNightGifts":{"experiments":{"PromNightGifts":{"name":"PromNightGifts","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":false,"variants":["hide"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-banner":{"experiments":{"subscription-flow-banner-experiment":{"name":"subscription-flow-banner-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_banner_0"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-seo-division-override":{"experiments":{"subscription-flow-seo-division-override-experiment":{"name":"subscription-flow-seo-division-override-experiment","buckets":"0..332","bucket_min":0,"bucket_max":332,"tracking":true,"variants":["none"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-common-intl":{"experiments":{"subscription-flow-common-experiment-intl":{"name":"subscription-flow-common-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["GB","FR","DE","IT","ES","AT","IE","PT","CH","DK","FI","SE","GR","NL","PL","NO","BR"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-sub-save":{"experiments":{"subscription-flow-sub-save-experiment":{"name":"subscription-flow-sub-save-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_fullScreen_2_subSave"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-non-sub-save":{"experiments":{"subscription-flow-non-sub-save-experiment":{"name":"subscription-flow-non-sub-save-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_fullScreen_2"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-resubscribe":{"experiments":{"subscription-resubscribe":{"name":"subscription-resubscribe","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_fullScreen_2"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-geocat":{"experiments":{"subscription-flow-geocat-experiment":{"name":"subscription-flow-geocat-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_7_showClose","none"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-serp-intl":{"experiments":{"subscription-flow-serp-experiment-intl":{"name":"subscription-flow-serp-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","DK","FI","FR","DE","IE","IT","NO","PT","ES","SE","GB"]}}]}},"diversion_type":"CookieDiversion"},"itier-seo-pages-subscription-intl":{"experiments":{"itier-seo-pages-subscription-experiment-intl":{"name":"itier-seo-pages-subscription-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","DK","FI","FR","DE","IE","IT","NO","PT","ES","SE","CH","GB"]}}]}},"diversion_type":"CookieDiversion"},"subscription-seo-homepage-intl":{"experiments":{"subscription-seo-homepage-experiment-intl":{"name":"subscription-seo-homepage-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","DK","FI","FR","DE","IE","IT","NO","PT","ES","SE","CH","GB"]}}]}},"diversion_type":"CookieDiversion"},"subscription-sem-homepage-intl":{"experiments":{"subscription-sem-homepage-experiment-intl":{"name":"subscription-sem-homepage-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","DK","FI","FR","DE","IE","IT","NO","PT","ES","SE","CH","GB"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-banner-intl":{"experiments":{"subscription-flow-banner-experiment-intl":{"name":"subscription-flow-banner-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_banner_0"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","BE","CA","DK","FI","FR","DE","IE","IT","NL","NO","PL","PT","ES","SE","CH","GB"]}}]}},"diversion_type":"CookieDiversion"}}
+          ;
+        for (var key in layoutConfig) {
+          if(layoutConfig.hasOwnProperty(key)) {
+            appConfig[key] = layoutConfig[key];
+          }
+        }
+        return appConfig;
+      }());
+    </script>
+    <script src="//www.groupon.com/layout/assets/perflibLoader-v2.4.1-d4df8145aa.js"></script>
+    <link href="//www.groupon.com/layout/assets/gig_application_layout-favicon-5414457d50.ico" rel="shortcut icon">
+      <script src="//www.groupon.com/layout/assets/gig_application_layout-v4.0.2-ff778298b3.js"></script>
+        <script>
+          Groupon.Modules.SearchBar.init({"division":{"defaultLocale":"en","name":"San Jose","timezone":"Pacific Time (US & Canada)","country":"USA","id":"san-jose","areas":[],"lng":-121.895,"timezoneIdentifier":"America/Los_Angeles","lat":37.3394,"state":{"abbreviation":"CA"},"selectCurrentDivision":"selected"},"google_geo_url":"//mapproxy.groupon.com/maps/api/js"});
+        </script>
+    <!--[if lte IE 7]>
+      <link href="//www.groupon.com/layout/assets/gig-ie7-v4.0.2-cfb846c64a.css" rel="stylesheet" type="text/css" />
+      <script src="//www.groupon.com/layout/js/lte-ie7.js"></script>
+    <![endif]-->
+    <meta name="description" content="$10 for $20 Worth of Skincare, Bath, and Beauty Products at The Body Shop">
+
+    <meta name="keywords" content="San Jose, CA, local deals, all deals, daily deals, coupons, discounts, things to do, groupon">
+
+    <link rel="canonical" href="http://www.groupon.com/deals/the-body-shop-november-central-jersey">
+
+
+<meta name="referrer" content="origin">
+  <meta property="fb:app_id" content="7829106395">
+  <meta property="og:site_name" content="Groupon">
+
+    <meta property="og:title" content="$10 for $20 Worth of Skincare, Bath, and Beauty Products at The Body Shop">
+
+    <meta property="og:url" content="http://www.groupon.com/deals/the-body-shop-november-central-jersey">
+
+    <meta property="og:description" content="Extensive library of socially responsible, celebrity-celebrated body, bath, skincare, and makeup products ">
+
+    <meta property="og:image" content="http://img.grouponcdn.com/deal/vTGcpqPdbRsvPB2xrd18/bQ-440x267/v1/t440x300.jpg">
+
+    <meta property="og:type" content="groupon:deal">
+
+
+
+
+
+
+      <meta property="og:latitude" content="40.2171">
+
+      <meta property="og:longitude" content="-74.7429">
+  <meta name="twitter:site" content="groupon" />
+
+
+  <meta name="twitter:description" content="Extensive library of socially responsible, celebrity-celebrated body, bath, skincare, and makeup products " />
+
+
+  <meta name="twitter:title" content="$10 for $20 Worth of Skincare, Bath, and Beauty Products at The Body Shop" />
+
+
+    <meta name="twitter:image:src" content="http://img.grouponcdn.com/deal/vTGcpqPdbRsvPB2xrd18/bQ-440x267/v1/t440x300.jpg" />
+
+    <meta name="twitter:image:width" content="440" />
+
+    <meta name="twitter:image:height" content="300" />
+
+
+
+
+
+
+    <link href="/deals/assets/styles-9dca87b3f5.css" rel="stylesheet" type="text/css" />
+
+
+  </head>
+<body dir="ltr" class="
+  
+  no-js prom-night deal-page
+    
+    
+    ltr en_US en_XX
+    ">
+
+    <div id="ls-google-tag-manager" class="ls-hide-absolute">
+      <script>window.dataLayer = (function(gtm) {
+        try {
+      gtm = JSON.parse(_.unescape('{&quot;dl_category&quot;:&quot;local&quot;,&quot;dl_category_sub&quot;:&quot;shopping&quot;,&quot;dl_currency&quot;:&quot;USD&quot;,&quot;dl_deal_price&quot;:&quot;0.10&quot;,&quot;dl_division&quot;:&quot;central-jersey&quot;,&quot;dl_sku&quot;:&quot;the-body-shop-november-central-jersey&quot;,&quot;dl_permalink&quot;:&quot;the-body-shop-november-central-jersey&quot;,&quot;dl_purchased_groupon&quot;:&quot;&quot;,&quot;dl_tracking_event&quot;:&quot;deal/show&quot;}'));
+    } catch(e) {}
+        
+        return [gtm];
+      })({})</script>
+    
+      
+      <noscript><iframe height="0" width="0" style="display:none;visibility:hidden"
+        src="//www.googletagmanager.com/ns.html?id=GTM-B76Z"
+      ></iframe></noscript>
+    
+      <script>
+        $(document).ready(function(){
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-B76Z');
+        });
+      </script>
+      
+    </div>
+
+    <div id="global-container">
+        <script>var subscriptionsUI_hideSubscribeDrawer = false;</script>
+        <div id="subscribe-drawer" class="subscribe-drawer no-print hide"
+             data-bhw="PushdownSubscriptionForm">
+          <div class="row subscribe-drawer-notification notification announcement">
+            <h4 class="subscribe-headline four columns">
+              Get the Daily Deal for:
+            </h4>
+            <form class="subscribe-drawer-form eight columns">
+              <input id="subscribed_from_drawer" type="hidden" value="true" />
+              <select id="subscribe-division" name="division_id"
+                      data-bhw="DivisionSelector">
+                  <option 
+                          data-bhc="Division:abbotsford" value="abbotsford">Abbotsford</option>
+          <option 
+                          data-bhc="Division:abilene" value="abilene">Abilene, TX</option>
+          <option 
+                          data-bhc="Division:akron-canton" value="akron-canton">Akron / Canton</option>
+          <option 
+                          data-bhc="Division:albany-capital-region" value="albany-capital-region">Albany / Capital Region</option>
+          <option 
+                          data-bhc="Division:albuquerque" value="albuquerque">Albuquerque</option>
+          <option 
+                          data-bhc="Division:allentown-reading" value="allentown-reading">Allentown / Reading</option>
+          <option 
+                          data-bhc="Division:amarillo" value="amarillo">Amarillo</option>
+          <option 
+                          data-bhc="Division:anchorage" value="anchorage">Anchorage</option>
+          <option 
+                          data-bhc="Division:ann-arbor" value="ann-arbor">Ann Arbor</option>
+          <option 
+                          data-bhc="Division:asheville" value="asheville">Asheville</option>
+          <option 
+                          data-bhc="Division:athens-ga" value="athens-ga">Athens, GA</option>
+          <option 
+                          data-bhc="Division:atlanta" value="atlanta">Atlanta</option>
+          <option 
+                          data-bhc="Division:augusta" value="augusta">Augusta</option>
+          <option 
+                          data-bhc="Division:austin" value="austin">Austin</option>
+          <option 
+                          data-bhc="Division:bakersfield" value="bakersfield">Bakersfield</option>
+          <option 
+                          data-bhc="Division:baltimore" value="baltimore">Baltimore</option>
+          <option 
+                          data-bhc="Division:barrie" value="barrie">Barrie</option>
+          <option 
+                          data-bhc="Division:baton-rouge" value="baton-rouge">Baton Rouge</option>
+          <option 
+                          data-bhc="Division:billings" value="billings">Billings / Bozeman</option>
+          <option 
+                          data-bhc="Division:birmingham" value="birmingham">Birmingham</option>
+          <option 
+                          data-bhc="Division:boise" value="boise">Boise</option>
+          <option 
+                          data-bhc="Division:boston" value="boston">Boston</option>
+          <option 
+                          data-bhc="Division:buffalo" value="buffalo">Buffalo</option>
+          <option 
+                          data-bhc="Division:calgary" value="calgary">Calgary</option>
+          <option 
+                          data-bhc="Division:cedar-rapids-iowa-city" value="cedar-rapids-iowa-city">Cedar Rapids / Iowa City</option>
+          <option 
+                          data-bhc="Division:central-jersey" value="central-jersey">Central Jersey</option>
+          <option 
+                          data-bhc="Division:charleston" value="charleston">Charleston</option>
+          <option 
+                          data-bhc="Division:charlotte" value="charlotte">Charlotte</option>
+          <option 
+                          data-bhc="Division:chattanooga" value="chattanooga">Chattanooga</option>
+          <option 
+                          data-bhc="Division:chicago" value="chicago">Chicago</option>
+          <option 
+                          data-bhc="Division:cincinnati" value="cincinnati">Cincinnati</option>
+          <option 
+                          data-bhc="Division:cleveland" value="cleveland">Cleveland</option>
+          <option 
+                          data-bhc="Division:colorado-springs" value="colorado-springs">Colorado Springs</option>
+          <option 
+                          data-bhc="Division:columbia" value="columbia">Columbia</option>
+          <option 
+                          data-bhc="Division:columbia-mo" value="columbia-mo">Columbia, MO</option>
+          <option 
+                          data-bhc="Division:columbus" value="columbus">Columbus</option>
+          <option 
+                          data-bhc="Division:columbus-ga" value="columbus-ga">Columbus GA</option>
+          <option 
+                          data-bhc="Division:corpus-christi" value="corpus-christi">Corpus Christi</option>
+          <option 
+                          data-bhc="Division:dallas" value="dallas">Dallas</option>
+          <option 
+                          data-bhc="Division:dayton" value="dayton">Dayton</option>
+          <option 
+                          data-bhc="Division:daytona-beach" value="daytona-beach">Daytona Beach</option>
+          <option 
+                          data-bhc="Division:denver" value="denver">Denver</option>
+          <option 
+                          data-bhc="Division:des-moines" value="des-moines">Des Moines</option>
+          <option 
+                          data-bhc="Division:detroit" value="detroit">Detroit</option>
+          <option 
+                          data-bhc="Division:edmonton" value="edmonton">Edmonton</option>
+          <option 
+                          data-bhc="Division:el-paso" value="el-paso">El Paso</option>
+          <option 
+                          data-bhc="Division:erie" value="erie">Erie</option>
+          <option 
+                          data-bhc="Division:eugene" value="eugene">Eugene</option>
+          <option 
+                          data-bhc="Division:evansville" value="evansville">Evansville</option>
+          <option 
+                          data-bhc="Division:fairfield-county" value="fairfield-county">Fairfield County</option>
+          <option 
+                          data-bhc="Division:fort-lauderdale" value="fort-lauderdale">Fort Lauderdale</option>
+          <option 
+                          data-bhc="Division:fort-myers-cape-coral" value="fort-myers-cape-coral">Fort Myers / Cape Coral</option>
+          <option 
+                          data-bhc="Division:fort-wayne" value="fort-wayne">Fort Wayne</option>
+          <option 
+                          data-bhc="Division:fort-worth" value="fort-worth">Fort Worth</option>
+          <option 
+                          data-bhc="Division:appleton" value="appleton">Fox Cities</option>
+          <option 
+                          data-bhc="Division:fresno" value="fresno">Fresno</option>
+          <option 
+                          data-bhc="Division:gainesville" value="gainesville">Gainesville</option>
+          <option 
+                          data-bhc="Division:grand-rapids" value="grand-rapids">Grand Rapids</option>
+          <option 
+                          data-bhc="Division:green-bay" value="green-bay">Green Bay</option>
+          <option 
+                          data-bhc="Division:greenville" value="greenville">Greenville</option>
+          <option 
+                          data-bhc="Division:halifax" value="halifax">Halifax</option>
+          <option 
+                          data-bhc="Division:hampton-roads" value="hampton-roads">Hampton Roads</option>
+          <option 
+                          data-bhc="Division:harrisburg" value="harrisburg">Harrisburg / Lancaster</option>
+          <option 
+                          data-bhc="Division:hartford" value="hartford">Hartford</option>
+          <option 
+                          data-bhc="Division:honolulu" value="honolulu">Honolulu</option>
+          <option 
+                          data-bhc="Division:houston" value="houston">Houston</option>
+          <option 
+                          data-bhc="Division:huntsville" value="huntsville">Huntsville</option>
+          <option 
+                          data-bhc="Division:indianapolis" value="indianapolis">Indianapolis</option>
+          <option 
+                          data-bhc="Division:inland-empire" value="inland-empire">Inland Empire</option>
+          <option 
+                          data-bhc="Division:jackson" value="jackson">Jackson</option>
+          <option 
+                          data-bhc="Division:jacksonville" value="jacksonville">Jacksonville</option>
+          <option 
+                          data-bhc="Division:kalamazoo" value="kalamazoo">Kalamazoo</option>
+          <option 
+                          data-bhc="Division:kansas-city" value="kansas-city">Kansas City</option>
+          <option 
+                          data-bhc="Division:kelowna" value="kelowna">Kelowna</option>
+          <option 
+                          data-bhc="Division:kingston" value="kingston">Kingston / Belleville</option>
+          <option 
+                          data-bhc="Division:kitchener-waterloo" value="kitchener-waterloo">Kitchener - Waterloo</option>
+          <option 
+                          data-bhc="Division:knoxville" value="knoxville">Knoxville</option>
+          <option 
+                          data-bhc="Division:lakeland" value="lakeland">Lakeland</option>
+          <option 
+                          data-bhc="Division:lansing" value="lansing">Lansing</option>
+          <option 
+                          data-bhc="Division:las-vegas" value="las-vegas">Las Vegas</option>
+          <option 
+                          data-bhc="Division:lexington" value="lexington">Lexington</option>
+          <option 
+                          data-bhc="Division:lincoln" value="lincoln">Lincoln</option>
+          <option 
+                          data-bhc="Division:little-rock" value="little-rock">Little Rock</option>
+          <option 
+                          data-bhc="Division:london" value="london">London, ON</option>
+          <option 
+                          data-bhc="Division:long-island" value="long-island">Long Island</option>
+          <option 
+                          data-bhc="Division:los-angeles" value="los-angeles">Los Angeles</option>
+          <option 
+                          data-bhc="Division:louisville" value="louisville">Louisville</option>
+          <option 
+                          data-bhc="Division:lubbock" value="lubbock">Lubbock</option>
+          <option 
+                          data-bhc="Division:macon" value="macon">Macon</option>
+          <option 
+                          data-bhc="Division:madison" value="madison">Madison</option>
+          <option 
+                          data-bhc="Division:memphis" value="memphis">Memphis</option>
+          <option 
+                          data-bhc="Division:miami" value="miami">Miami</option>
+          <option 
+                          data-bhc="Division:midland-odessa" value="midland-odessa">Midland / Odessa</option>
+          <option 
+                          data-bhc="Division:milwaukee" value="milwaukee">Milwaukee</option>
+          <option 
+                          data-bhc="Division:minneapolis-stpaul" value="minneapolis-stpaul">Minneapolis / St Paul</option>
+          <option 
+                          data-bhc="Division:mobile-baldwin-county" value="mobile-baldwin-county">Mobile / Baldwin County</option>
+          <option 
+                          data-bhc="Division:modesto" value="modesto">Modesto</option>
+          <option 
+                          data-bhc="Division:montgomery" value="montgomery">Montgomery</option>
+          <option 
+                          data-bhc="Division:napa-sonoma" value="napa-sonoma">Napa / Sonoma</option>
+          <option 
+                          data-bhc="Division:naples" value="naples">Naples</option>
+          <option 
+                          data-bhc="Division:nashville" value="nashville">Nashville</option>
+          <option 
+                          data-bhc="Division:new-orleans" value="new-orleans">New Orleans</option>
+          <option 
+                          data-bhc="Division:new-york" value="new-york">New York City</option>
+          <option 
+                          data-bhc="Division:north-jersey" value="north-jersey">North Jersey</option>
+          <option 
+                          data-bhc="Division:ocala" value="ocala">Ocala</option>
+          <option 
+                          data-bhc="Division:ogden" value="ogden">Ogden</option>
+          <option 
+                          data-bhc="Division:oklahoma-city" value="oklahoma-city">Oklahoma City</option>
+          <option 
+                          data-bhc="Division:omaha" value="omaha">Omaha</option>
+          <option 
+                          data-bhc="Division:orange-county" value="orange-county">Orange County</option>
+          <option 
+                          data-bhc="Division:orlando" value="orlando">Orlando</option>
+          <option 
+                          data-bhc="Division:ottawa" value="ottawa">Ottawa</option>
+          <option 
+                          data-bhc="Division:palm-beach" value="palm-beach">Palm Beach</option>
+          <option 
+                          data-bhc="Division:pensacola" value="pensacola">Pensacola / Emerald Coast</option>
+          <option 
+                          data-bhc="Division:philadelphia" value="philadelphia">Philadelphia</option>
+          <option 
+                          data-bhc="Division:phoenix" value="phoenix">Phoenix</option>
+          <option 
+                          data-bhc="Division:piedmont-triad" value="piedmont-triad">Piedmont Triad</option>
+          <option 
+                          data-bhc="Division:pittsburgh" value="pittsburgh">Pittsburgh</option>
+          <option 
+                          data-bhc="Division:portland" value="portland">Portland</option>
+          <option 
+                          data-bhc="Division:portland-me" value="portland-me">Portland, ME</option>
+          <option 
+                          data-bhc="Division:providence" value="providence">Providence</option>
+          <option 
+                          data-bhc="Division:raleigh-durham" value="raleigh-durham">Raleigh / Durham</option>
+          <option 
+                          data-bhc="Division:regina" value="regina">Regina</option>
+          <option 
+                          data-bhc="Division:reno" value="reno">Reno</option>
+          <option 
+                          data-bhc="Division:richmond" value="richmond">Richmond</option>
+          <option 
+                          data-bhc="Division:rio-grande-valley" value="rio-grande-valley">Rio Grande Valley</option>
+          <option 
+                          data-bhc="Division:roanoke" value="roanoke">Roanoke</option>
+          <option 
+                          data-bhc="Division:rochester" value="rochester">Rochester</option>
+          <option 
+                          data-bhc="Division:rockford" value="rockford">Rockford</option>
+          <option 
+                          data-bhc="Division:sacramento" value="sacramento">Sacramento</option>
+          <option 
+                          data-bhc="Division:salem-or" value="salem-or">Salem OR</option>
+          <option 
+                          data-bhc="Division:salt-lake-city" value="salt-lake-city">Salt Lake City</option>
+          <option 
+                          data-bhc="Division:san-angelo" value="san-angelo">San Angelo</option>
+          <option 
+                          data-bhc="Division:san-antonio" value="san-antonio">San Antonio</option>
+          <option 
+                          data-bhc="Division:san-diego" value="san-diego">San Diego</option>
+          <option 
+                          data-bhc="Division:san-francisco" value="san-francisco">San Francisco</option>
+          <option selected
+                          data-bhc="Division:san-jose" value="san-jose">San Jose</option>
+          <option 
+                          data-bhc="Division:santa-barbara" value="santa-barbara">Santa Barbara</option>
+          <option 
+                          data-bhc="Division:santa-cruz" value="santa-cruz">Santa Cruz / Monterey</option>
+          <option 
+                          data-bhc="Division:saskatoon" value="saskatoon">Saskatoon</option>
+          <option 
+                          data-bhc="Division:savannah-hilton-head" value="savannah-hilton-head">Savannah / Hilton Head</option>
+          <option 
+                          data-bhc="Division:seattle" value="seattle">Seattle</option>
+          <option 
+                          data-bhc="Division:shreveport-bossier" value="shreveport-bossier">Shreveport / Bossier</option>
+          <option 
+                          data-bhc="Division:sioux-falls" value="sioux-falls">Sioux Falls</option>
+          <option 
+                          data-bhc="Division:south-bend" value="south-bend">South Bend</option>
+          <option 
+                          data-bhc="Division:spokane-coeur-dalene" value="spokane-coeur-dalene">Spokane / Coeur d&#39;Alene</option>
+          <option 
+                          data-bhc="Division:springfield-mo" value="springfield-mo">Springfield MO</option>
+          <option 
+                          data-bhc="Division:springfield-ma" value="springfield-ma">Springfield, MA</option>
+          <option 
+                          data-bhc="Division:stcatharines-niagara" value="stcatharines-niagara">St Catharines-Niagara</option>
+          <option 
+                          data-bhc="Division:st-johns" value="st-johns">St John&#39;s</option>
+          <option 
+                          data-bhc="Division:stlouis" value="stlouis">St Louis</option>
+          <option 
+                          data-bhc="Division:stockton" value="stockton">Stockton</option>
+          <option 
+                          data-bhc="Division:sudbury" value="sudbury">Sudbury / North Bay</option>
+          <option 
+                          data-bhc="Division:syracuse" value="syracuse">Syracuse</option>
+          <option 
+                          data-bhc="Division:tallahassee" value="tallahassee">Tallahassee</option>
+          <option 
+                          data-bhc="Division:tampa-bay-area" value="tampa-bay-area">Tampa Bay Area</option>
+          <option 
+                          data-bhc="Division:toledo" value="toledo">Toledo</option>
+          <option 
+                          data-bhc="Division:topeka-lawrence" value="topeka-lawrence">Topeka / Lawrence</option>
+          <option 
+                          data-bhc="Division:greater-toronto-area" value="greater-toronto-area">Toronto (GTA)</option>
+          <option 
+                          data-bhc="Division:tucson" value="tucson">Tucson</option>
+          <option 
+                          data-bhc="Division:tulsa" value="tulsa">Tulsa</option>
+          <option 
+                          data-bhc="Division:vancouver" value="vancouver">Vancouver</option>
+          <option 
+                          data-bhc="Division:ventura-county" value="ventura-county">Ventura County</option>
+          <option 
+                          data-bhc="Division:victoria" value="victoria">Victoria</option>
+          <option 
+                          data-bhc="Division:washington-dc" value="washington-dc">Washington DC</option>
+          <option 
+                          data-bhc="Division:westchester-county" value="westchester-county">Westchester County</option>
+          <option 
+                          data-bhc="Division:wichita" value="wichita">Wichita</option>
+          <option 
+                          data-bhc="Division:wilmington-newark" value="wilmington-newark">Wilmington-Newark</option>
+          <option 
+                          data-bhc="Division:windsor" value="windsor">Windsor</option>
+          <option 
+                          data-bhc="Division:winnipeg" value="winnipeg">Winnipeg</option>
+          <option 
+                          data-bhc="Division:worcester" value="worcester">Worcester</option>
+          <option 
+                          data-bhc="Division:youngstown" value="youngstown">Youngstown</option>
+      </select>
+              <input placeholder="email@address.com"
+                     title="Enter your email address"
+                     class="subscribe-email text_field prompting_field validate-email required input"
+                     data-bhw="PushdownSubscriptionFormEmailInputField"
+                     id="email_address" name="email_address" size="36" type="email" />
+              <button data-bhw="PushdownSubscriptionFormSubmitSubscriptionButton"
+                      class="btn-cta btn-small">Subscribe</button>
+              <a href="#" id="hide_follow">hide</a>
+            </form>
+          </div>
+        </div>
+
+        <script>
+          var subscriptionsUI_country = $('head').data('country');
+          Groupon.subscription = new SubscriptionsUI();
+          Groupon.subscription.show_default_subscription_ui();
+        </script>
+
+      <div class="header-v2">
+
+
+            <header class="header" data-bhw="Header" role="banner" id="ls-header">
+              <div class="row" id="ls-header-top-row">
+                <a id="ls-groupon-logo" href="/" class="two columns logo icon-groupon" data-bhw="Logo"></a>
+                <div id="ls-header-main" class="ten columns">
+                  <div class="row">
+                    <div class="eight columns search-bar-wrapper" id="ls-search-bar-wrapper">
+                        <form class="search-bar" id="search-bar" data-bhw="SearchBar" data-nosearchbarfocus="" role="search">
+              <label class="icon-magnifying-glass rounded-input left" for="search">
+                <input type="search" name="search" autocomplete="off" spellcheck="false"
+                   placeholder="What are you looking for?"
+                   id="search" data-bhw="FreeTextSearchField" data-log="Deal" aria-haspopup="ls-typeahead-search" role="input"
+                     data-focus="search"
+              data-bhc="autofocus:DealSearch"
+      >
+              </label>
+              <label class="rounded-input right icon-marker" for="location"
+                   data-error-generic="There was an error"
+                   data-error-bad_location="We couldn't understand that location. Try another ZIP/Postal Code, neighborhood or address."
+                   data-error-availability="We are experiencing difficulty finding your location. Try again later.">
+                <input type="text" name="location" autocomplete="off" spellcheck="false"
+                  placeholder="Enter your location"
+                  id="location" data-bhw="LocationBarField" data-log="Location" data-manuallocation="false"
+                  data-locationsearch="Homepage"  aria-haspopup="ls-typeahead-location" role="input"
+                >
+              </label>
+              <button type="submit" class="hide" data-bhw="LocationBarFindDeals"></button>
+            </form>
+          
+              <script>
+                Groupon.Modules.SearchBar.SearchOverrides = [{"link":"/occasion/bestofgroupon","terms":["best","best of","best of groupon","top","top rated","best massage","best restaurant","best things to do","best gym","best facial","best nail salon","best car wash","best facial","best spas","best laser hair removal","best indian","best italian","best american","best bar"]},{"link":"/reserve","terms":["reservations","reserve"]},{"link":"http://www.grouponworks.com/get-featured","terms":["sell on groupon","advertise on groupon","run a groupon deal","get featured"]},{"link":"/groupon-promise","terms":["return policy","claim refund","request refund","refund","returns"]},{"link":"/customer_support","terms":["customer support","customer service"]},{"link":"https://merchants.groupon.com","terms":["merchant center"]},{"link":"https://breadcrumb.groupon.com/","terms":["breadcrumb","pos","point of sale"]},{"link":"https://breadcrumb.groupon.com/payments","terms":["payments"]},{"link":"https://grassroots.groupon.com/","terms":["charity","grassroots"]},{"link":"/coupons","terms":["coupons"]},{"link":"/giftcards","terms":["gift card"]},{"link":"/articles/favin-the-maven","terms":["favin","favins faves","favin\"s faves","favin the maven","Beauty Expert","Resident Expert","Beauty Advice","Beauty Tips","Beauty Tricks"]},{"link":"/browse/?category=food-and-drink","terms":["eat15"]},{"link":"/travel","terms":["hotel","hotels","b&b","motel","hotel deal","hotel deals","hotel rooms","hotel room","rooms","bed and breakfast","travel deals","vacation","resort","getaways","bath spa hotel","spa hotels","spa hotel","spa hotell"]},{"link":"/travel/anaheim/hotels","terms":["disneyland","hotels near disneyland"]},{"link":"/travel/orlando/hotels","terms":["disneyworld"]},{"link":"/travel/las-vegas/hotels","terms":["vegas hotel","vegas hotels","hotel in vegas","hotels in vegas","hotel vegas","hotels vegas","las vegas hotel","las vegas hotels","hotel in las vegas","hotels in las vegas","hotel las vegas","hotels las vegas"]},{"link":"/travel/atlantic-city-nj/hotels","terms":["atlantic city hotel","atlantic city hotels","hotel in atlantic city","hotels in atlantic city","hotel atlantic city","hotels atlantic city"]},{"link":"/travel/orlando/hotels","terms":["orlando hotel","orlando hotels","hotel in orlando","hotels in orlando","hotel orlando","hotels orlando"]},{"link":"/travel/chicago/hotels","terms":["chicago hotel","chicago hotels","hotel in chicago","hotels in chicago","hotel chicago","hotels chicago"]},{"link":"/travel/new-york-city/hotels","terms":["new york city hotel","new york city hotels","hotel in new york city","hotels in new york city","hotel new york city","hotels new york city","nyc hotel","nyc hotels","hotel in nyc","hotels in nyc","hotel nyc","hotels nyc"]},{"link":"/travel/new-york/hotels","terms":["new york hotel","new york hotels","hotel in new york","hotels in new york","hotel new york","hotels new york"]},{"link":"/travel/niagara-falls-ny/hotels","terms":["niagara falls hotel","niagara falls hotels","hotel in niagara falls","hotels in niagara falls","hotel niagara falls","hotels niagara falls"]},{"link":"/travel/miami-beach-fl/hotels","terms":["miami beach hotel","miami beach hotels","hotel in miami beach","hotels in miami beach","hotel miami beach","hotels miami beach"]},{"link":"/travel/seattle/hotels","terms":["seattle hotel","seattle hotels","hotel in seattle","hotels in seattle","hotel seattle","hotels seattle"]},{"link":"/travel/new-orleans/hotels","terms":["new orleans hotel","new orleans hotels","hotel in new orleans","hotels in new orleans","hotel new orleans","hotels new orleans"]},{"link":"/travel/boston/hotels","terms":["boston hotel","boston hotels","hotel in boston","hotels in boston","hotel boston","hotels boston"]},{"link":"/travel/san-diego/hotels","terms":["san diego hotel","san diego hotels","hotel in san diego","hotels in san diego","hotel san diego","hotels san diego"]},{"link":"/travel/san-francisco/hotels","terms":["san francisco hotel","san francisco hotels","hotel in san francisco","hotels in san francisco","hotel san francisco","hotels san francisco"]},{"link":"/travel/washington/hotels","terms":["washington hotel","washington hotels","hotel in washington","hotels in washington","hotel washington","hotels washington"]},{"link":"/travel/miami/hotels","terms":["miami hotel","miami hotels","hotel in miami","hotels in miami","hotel miami","hotels miami"]},{"link":"/travel/san-antonio/hotels","terms":["san antonio hotel","san antonio hotels","hotel in san antonio","hotels in san antonio","hotel san antonio","hotels san antonio"]},{"link":"/travel/toronto/hotels","terms":["toronto hotel","toronto hotels","hotel in toronto","hotels in toronto","hotel toronto","hotels toronto"]},{"link":"/travel/palm-springs-ca/hotels","terms":["palm springs hotel","palm springs hotels","hotel in palm springs","hotels in palm springs","hotel palm springs","hotels palm springs"]},{"link":"/travel/los-angeles/hotels","terms":["los angeles hotel","los angeles hotels","hotel in los angeles","hotels in los angeles","hotel los angeles","hotels los angeles"]},{"link":"/travel/philadelphia/hotels","terms":["philadelphia hotel","philadelphia hotels","hotel in philadelphia","hotels in philadelphia","hotel philadelphia","hotels philadelphia"]},{"link":"/travel/dallas/hotels","terms":["dallas hotel","dallas hotels","hotel in dallas","hotels in dallas","hotel dallas","hotels dallas"]},{"link":"/travel/key-west-fl/hotels","terms":["key west hotel","key west hotels","hotel in key west","hotels in key west","hotel key west","hotels key west"]},{"link":"/travel/atlanta/hotels","terms":["atlanta hotel","atlanta hotels","hotel in atlanta","hotels in atlanta","hotel atlanta","hotels atlanta"]},{"link":"/travel/nashville/hotels","terms":["nashville hotel","nashville hotels","hotel in nashville","hotels in nashville","hotel nashville","hotels nashville"]},{"link":"/travel/washington-dc/hotels","terms":["washington dc hotel","washington dc hotels","hotel in washington dc","hotels in washington dc","hotel washington dc","hotels washington dc"]},{"link":"/occasion/my-chicago-by-giuliana-rancic","terms":["giuliana","giuliana rancic","rancic","guiliana"],"guards":{"experiments":{"LS-211":"1"},"divisions":["chicago"]}}];
+              </script>
+        </div>
+                    <div class="four columns user-wrapper">
+            
+            
+                      <nav class="user-menu signed-out">
+                <span class="user-menu-item cart-widget responsive-hide-500" data-bhw="CartWidget">
+                  <a href="/cart" class="icon-goods">
+                    Cart
+                  </a>
+                </span>
+    <a class="first user-menu-item user-menu-action" href="/login" data-bhw="SignIn">
+                Sign In
+              </a>
+              <a class="last user-menu-item user-menu-action" href="/signup" data-bhw="SignUp">
+                Sign Up
+              </a>
+</nav>
+        </div>
+                  </div>
+                </div>
+              </div>
+            
+              <nav id="ls-primary-nav" role="navigation">
+    <div class="row">
+      <div class="twelve columns">
+        <ul class="primary-nav ">
+  
+          <li id="home-tab" class="primary-nav-tab" data-bhw="NavHome">
+              <a class="icon-home breakout-iconHomeHidden" href="/">
+                <span class="responsive-hide">Home</span>
+              </a>
+        </li>
+  
+            <li id="local-tab"
+              class="primary-nav-tab "
+              data-bhw="NavLocalDeals">
+              <a href="/browse/san-jose?context=local">Local</a>
+            </li>
+
+          <li id="goods-tab" class="primary-nav-tab" data-bhw="NavGoods">
+            <a href='/goods'>
+              Goods
+            </a>
+          </li>
+  
+          <li id="getaways-tab" class="primary-nav-tab" data-bhw="NavGetaways">
+            <a href='/getaways'>
+                Getaways
+          </a>
+          </li>
+  
+              <li id="reserve-tab" class="primary-nav-tab reserve-tab" data-bhw="NavReserve">
+                <a href="/reserve/san-jose" class="reserve G_event E-GlobalTopNavNH_GReserve">Reserve</a>
+              </li>
+
+              <li id="coupons-tab" class="primary-nav-tab" data-bhw="NavCoupons">
+                <a href="/coupons">Coupons</a>
+              </li>
+
+  
+            <style>
+            .ls-occasion-tab .ls-occasion-violator {
+              margin: -4px 7px 0;
+              width: px;
+              height: px;
+              background-image: url("");
+              background-size: px px;
+            }
+            @media all and (-webkit-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+              .ls-occasion-tab .ls-occasion-violator {
+                background-image: url("");
+              }
+            }
+          </style>
+    <li id="occasion-tab" class="GiftableOccasion Gifts ls-occasion-tab primary-nav-tab last" data-bhw="NavOccasion">
+              <a href="/occasions" class="G_event E-GobalTopNavNH_GrouponOccasion Gifts " data-track="{&quot;event&quot;:&quot;click&quot;,&quot;t&quot;:&quot;occasion_tab_selected&quot;}">
+                <span class="ls-occasion-violator"></span>
+                Summer Shop
+              </a>
+            </li>
+              </ul>
+      </div>
+    </div>
+  </nav>
+
+              <nav class="subnav">
+      <nav class="subnav-flyout local-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-local-tab"
+           id="subnav-local-tab">
+            <div class="column subnav-categories" data-bhw="local-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/browse/san-jose?context=local"
+                     data-bhc="category:local-tab-all-deals" id="all-deals"
+                     >
+                      All Deals
+                          <span class="count">1078</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/san-jose?category=automotive"
+                     data-bhc="category:local-tab-automotive" id="automotive"
+                     >
+                      Automotive
+                          <span class="count">34</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/san-jose?category=beauty-and-spas"
+                     data-bhc="category:local-tab-beauty-and-spas" id="beauty-and-spas"
+                     >
+                      Beauty &amp; Spas
+                          <span class="count">273</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/san-jose?category=food-and-drink"
+                     data-bhc="category:local-tab-food-and-drink" id="food-and-drink"
+                     >
+                      Food &amp; Drink
+                          <span class="count">127</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/san-jose?category=health-and-fitness"
+                     data-bhc="category:local-tab-health-and-fitness" id="health-and-fitness"
+                     >
+                      Health &amp; Fitness
+                          <span class="count">285</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/san-jose?category=home-improvement"
+                     data-bhc="category:local-tab-home-improvement" id="home-improvement"
+                     >
+                      Home Services
+                          <span class="count">53</span>
+                  </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="local-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/browse/san-jose?category=local-services"
+                     data-bhc="category:local-tab-local-services" id="local-services"
+                     >
+                      Local Services
+                          <span class="count">197</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/san-jose?category=shopping"
+                     data-bhc="category:local-tab-shopping" id="shopping"
+                     >
+                      Shopping
+                          <span class="count">67</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/san-jose?category=things-to-do"
+                     data-bhc="category:local-tab-things-to-do" id="things-to-do"
+                     >
+                      Things To Do 
+                          <span class="count">240</span>
+                  </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/summer-shopping"
+               data-bhw="MegamindSummer_Shop_Shindigs_Local"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;55996183&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/qzkgpCfy6kNQLJoRVto3/hw-440x420" 
+                   data-bhc="asset:MegamindSummer_Shop_Shindigs_Local"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/tickets"
+               data-bhw="Megamindgl_tickets"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;b28e4bff&quot;,&quot;mm_position&quot;:2}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/52MLxuCyMkcojMy7vzwF/VW-440x420" 
+                   data-bhc="asset:Megamindgl_tickets"/>
+            </a>
+
+      </nav>
+    <nav class="subnav-flyout goods-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-goods-tab"
+           id="subnav-goods-tab">
+            <div class="column subnav-categories" data-bhw="goods-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/goods?category=all"
+                     data-bhc="category:goods-tab-all-goods" id="all-goods"
+                     >
+                      All Goods
+                          <span class="count">3831</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=all&amp;discount=gg-clearance"
+                     data-bhc="category:goods-tab-all&amp;discount=gg-clearance" id="all&amp;discount=gg-clearance"
+                     >
+                      Clearance
+                          <span class="count">456</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=apparel-and-accessories"
+                     data-bhc="category:goods-tab-apparel-and-accessories" id="apparel-and-accessories"
+                     >
+                      Apparel
+                          <span class="count">655</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=automotive-goods"
+                     data-bhc="category:goods-tab-automotive-goods" id="automotive-goods"
+                     >
+                      Auto
+                          <span class="count">45</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=baby-goods"
+                     data-bhc="category:goods-tab-baby-goods" id="baby-goods"
+                     >
+                      Baby
+                          <span class="count">50</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=basics"
+                     data-bhc="category:goods-tab-basics" id="basics"
+                     >
+                      Basics
+                        <span class="new-badge">New!</span>
+                        <span class="count">190</span>
+                  </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="goods-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/goods?category=electronics-goods"
+                     data-bhc="category:goods-tab-electronics-goods" id="electronics-goods"
+                     >
+                      Electronics
+                          <span class="count">722</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=entertainment-and-media"
+                     data-bhc="category:goods-tab-entertainment-and-media" id="entertainment-and-media"
+                     >
+                      Entertainment
+                          <span class="count">210</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=food-and-drink-goods"
+                     data-bhc="category:goods-tab-food-and-drink-goods" id="food-and-drink-goods"
+                     >
+                      Food &amp; Drink
+                          <span class="count">81</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=health-and-beauty-goods"
+                     data-bhc="category:goods-tab-health-and-beauty-goods" id="health-and-beauty-goods"
+                     >
+                      Health &amp; Beauty
+                          <span class="count">750</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=home-goods"
+                     data-bhc="category:goods-tab-home-goods" id="home-goods"
+                     >
+                      Home
+                          <span class="count">650</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=jewelry"
+                     data-bhc="category:goods-tab-jewelry" id="jewelry"
+                     >
+                      Jewelry &amp; Watches
+                          <span class="count">238</span>
+                  </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="goods-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/goods?category=pets-goods"
+                     data-bhc="category:goods-tab-pets-goods" id="pets-goods"
+                     >
+                      Pets
+                          <span class="count">88</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=sports-and-outdoors-goods"
+                     data-bhc="category:goods-tab-sports-and-outdoors-goods" id="sports-and-outdoors-goods"
+                     >
+                      Sporting Goods
+                          <span class="count">268</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=tools-and-diy-goods"
+                     data-bhc="category:goods-tab-tools-and-diy-goods" id="tools-and-diy-goods"
+                     >
+                      Tools
+                          <span class="count">57</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=toys"
+                     data-bhc="category:goods-tab-toys" id="toys"
+                     >
+                      Toys
+                          <span class="count">72</span>
+                  </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/gg-white-sale"
+               data-bhw="MegamindGoods_Summer_Home_Sale"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;30dbb628&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/hAyVjQ2N3GMiAwHhWz7E/ve-440x420" 
+                   data-bhc="asset:MegamindGoods_Summer_Home_Sale"/>
+            </a>
+
+      </nav>
+    <nav class="subnav-flyout getaways-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-getaways-tab"
+           id="subnav-getaways-tab">
+            <div class="column subnav-categories" data-bhw="getaways-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/getaways#category/All+Destinations"
+                     
+                     data-bhc="category:getaways-tab-All Destinations">
+                      All Destinations
+                    </a>
+                  <a class="subnav-link" href="/getaways#category/USA+and+Canada"
+                     
+                     data-bhc="category:getaways-tab-USA &amp; Canada">
+                      USA &amp; Canada
+                    </a>
+                  <a class="subnav-link" href="/getaways#category/Mexico,+the+Caribbean,+&amp;+Latin+America"
+                     
+                     data-bhc="category:getaways-tab-Mexico, the Caribbean, &amp; Latin America">
+                      Mexico, the Caribbean, &amp; Latin America
+                    </a>
+                  <a class="subnav-link" href="/getaways#category/Europe,+Asia,+Africa,+&amp;+Oceania"
+                     
+                     data-bhc="category:getaways-tab-Europe, Asia, Africa, &amp; Oceania">
+                      Europe, Asia, Africa, &amp; Oceania
+                    </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/romantic-getaways"
+               data-bhw="MegamindTrips_for_Two"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;e9c158ae&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/2WdHZ7JwfX91yi2nKp3owL/trips_for_2_sub-440x420" 
+                   data-bhc="asset:MegamindTrips_for_Two"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/ga-waterparks"
+               data-bhw="Megamindga_waterparks"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;2ab9e641&quot;,&quot;mm_position&quot;:2}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/fMagoNj3qGAaZZPh142X9G/waterparks_new_subnav-440x420" 
+                   data-bhc="asset:Megamindga_waterparks"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/last-minute-travel-deals"
+               data-bhw="Megamindga_last_minute_deals"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;e1888435&quot;,&quot;mm_position&quot;:3}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/cTgCCnU3cKPWtmCTP4CizM/getaways_last_minute-440x420" 
+                   data-bhc="asset:Megamindga_last_minute_deals"/>
+            </a>
+
+      </nav>
+    <nav class="subnav-flyout reserve-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-reserve-tab"
+           id="subnav-reserve-tab">
+            <div class="column subnav-categories" data-bhw="reserve-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/reserve/new-york"
+                     data-bhc="category:reserve-tab-new-york" id="new-york"
+                     >
+                      New York City
+                          <span class="count">321</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/north-jersey"
+                     data-bhc="category:reserve-tab-north-jersey" id="north-jersey"
+                     >
+                      North Jersey
+                          <span class="count">27</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/long-island"
+                     data-bhc="category:reserve-tab-long-island" id="long-island"
+                     >
+                      Long Island
+                          <span class="count">26</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/westchester-county"
+                     data-bhc="category:reserve-tab-westchester-county" id="westchester-county"
+                     >
+                      Westchester
+                          <span class="count">21</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/chicago"
+                     data-bhc="category:reserve-tab-chicago" id="chicago"
+                     >
+                      Chicago
+                          <span class="count">65</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/san-francisco"
+                     data-bhc="category:reserve-tab-san-francisco" id="san-francisco"
+                     >
+                      San Francisco
+                          <span class="count">37</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/los-angeles"
+                     data-bhc="category:reserve-tab-los-angeles" id="los-angeles"
+                     >
+                      Los Angeles
+                          <span class="count">61</span>
+                  </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="reserve-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/reserve/washington-dc"
+                     data-bhc="category:reserve-tab-washington-dc" id="washington-dc"
+                     >
+                      Washington DC
+                          <span class="count">50</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/philadelphia"
+                     data-bhc="category:reserve-tab-philadelphia" id="philadelphia"
+                     >
+                      Philadelphia
+                          <span class="count">23</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/atlanta"
+                     data-bhc="category:reserve-tab-atlanta" id="atlanta"
+                     >
+                      Atlanta
+                          <span class="count">14</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/boston"
+                     data-bhc="category:reserve-tab-boston" id="boston"
+                     >
+                      Boston
+                          <span class="count">19</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/miami"
+                     data-bhc="category:reserve-tab-miami" id="miami"
+                     >
+                      Miami
+                          <span class="count">38</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/reserve/denver"
+                     data-bhc="category:reserve-tab-denver" id="denver"
+                     >
+                      Denver
+                          <span class="count">20</span>
+                  </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://www.groupon.com/reserve"
+               data-bhw="MegamindReserve2_B"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;49809bb&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/qJFgdFZbH9DYHwQZ4eAVLi/mu_reserve-value02_jpg-440x420" 
+                   data-bhc="asset:MegamindReserve2_B"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/reserve"
+               data-bhw="MegamindReserve2_A"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;ec39e019&quot;,&quot;mm_position&quot;:2}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/jZ3vMst3vAKnZVnr7SFdVX/mu_reserve-value01_jpg-440x420" 
+                   data-bhc="asset:MegamindReserve2_A"/>
+            </a>
+
+      </nav>
+    <nav class="subnav-flyout occasion-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-occasion-tab"
+           id="subnav-occasion-tab">
+            <div class="column subnav-categories" data-bhw="occasion-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/occasion/summer-shopping"
+                     
+                     data-bhc="category:occasion-tab-Summer Shop">
+                      Summer Shop
+                    </a>
+                  <a class="subnav-link" href="/occasion/summer-activities-under-25"
+                     
+                     data-bhc="category:occasion-tab-Activities Under $25">
+                      Activities Under $25
+                    </a>
+                  <a class="subnav-link" href="/occasion/summer-fitness"
+                     
+                     data-bhc="category:occasion-tab-Beach Bodies">
+                      Beach Bodies
+                    </a>
+                  <a class="subnav-link" href="/occasion/summer-fun-waterpark"
+                     
+                     data-bhc="category:occasion-tab-Cool Down">
+                      Cool Down
+                    </a>
+                  <a class="subnav-link" href="/occasion/summer-activities"
+                     
+                     data-bhc="category:occasion-tab-Epic Adventures">
+                      Epic Adventures
+                    </a>
+                  <a class="subnav-link" href="/occasion/family-activities"
+                     
+                     data-bhc="category:occasion-tab-Family Fun">
+                      Family Fun
+                    </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="occasion-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/occasion/summer-food"
+                     
+                     data-bhc="category:occasion-tab-Fresh Eats">
+                      Fresh Eats
+                    </a>
+                  <a class="subnav-link" href="/occasion/summer-auto"
+                     
+                     data-bhc="category:occasion-tab-Home + Auto">
+                      Home + Auto
+                    </a>
+                  <a class="subnav-link" href="/occasion/summer-spa"
+                     
+                     data-bhc="category:occasion-tab-Pampering">
+                      Pampering
+                    </a>
+                  <a class="subnav-link" href="/occasion/summer-parties"
+                     
+                     data-bhc="category:occasion-tab-Shindigs">
+                      Shindigs
+                    </a>
+                  <a class="subnav-link" href="/occasion/summer-vacations"
+                     
+                     data-bhc="category:occasion-tab-Vacations">
+                      Vacations
+                    </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://www.groupon.com/coupons/summer-of-groupon"
+               data-bhw="MegamindSummer_Shop_Summer_To_Redeem"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;ba7f4048&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/4N615yCrEkjZd1Kzhg2w/9X-440x420" 
+                   data-bhc="asset:MegamindSummer_Shop_Summer_To_Redeem"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/summer-parties"
+               data-bhw="MegamindSummer_Shop_Shindigs"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;20996e02&quot;,&quot;mm_position&quot;:2}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/qzkgpCfy6kNQLJoRVto3/hw-440x420" 
+                   data-bhc="asset:MegamindSummer_Shop_Shindigs"/>
+            </a>
+
+      </nav>
+    <nav class="subnav-flyout coupons-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-coupons-tab"
+           id="subnav-coupons-tab">
+            <div class="column subnav-categories" data-bhw="coupons-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/coupons/stores"
+                     
+                     data-bhc="category:coupons-tab-All Stores">
+                      All Stores
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/target.com"
+                     
+                     data-bhc="category:coupons-tab-Target Coupons">
+                      Target Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/toysrus.com"
+                     
+                     data-bhc="category:coupons-tab-Toys R Us Coupons">
+                      Toys R Us Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/sephora.com"
+                     
+                     data-bhc="category:coupons-tab-Sephora Coupons">
+                      Sephora Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/nordstrom.com"
+                     
+                     data-bhc="category:coupons-tab-Nordstrom Coupons">
+                      Nordstrom Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/bestbuy.com"
+                     
+                     data-bhc="category:coupons-tab-Best Buy Coupons">
+                      Best Buy Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/macys.com"
+                     
+                     data-bhc="category:coupons-tab-Macy&quot;s Coupons">
+                      Macy&quot;s Coupons
+                    </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="coupons-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/coupons/stores/ae.com"
+                     
+                     data-bhc="category:coupons-tab-American Eagle Coupons">
+                      American Eagle Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/aeropostale.com"
+                     
+                     data-bhc="category:coupons-tab-Aeropostale Coupons">
+                      Aeropostale Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/finishline.com"
+                     
+                     data-bhc="category:coupons-tab-Finish Line Coupons">
+                      Finish Line Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/walmart.com"
+                     
+                     data-bhc="category:coupons-tab-Walmart Coupons">
+                      Walmart Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/shutterfly.com"
+                     
+                     data-bhc="category:coupons-tab-Shutterfly Coupons">
+                      Shutterfly Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/walgreens.com"
+                     
+                     data-bhc="category:coupons-tab-Walgreens Coupons">
+                      Walgreens Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/thebodyshop.com"
+                     
+                     data-bhc="category:coupons-tab-The Body Shop Coupons">
+                      The Body Shop Coupons
+                    </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://www.groupon.com/coupons"
+               data-bhw="MegamindTodays_Best_Coupons"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;3bf39dce&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/45m9Y28QFGAVovMwa1cxga/todays-best-col2-440x420" 
+                   data-bhc="asset:MegamindTodays_Best_Coupons"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/coupons"
+               data-bhw="MegamindAbout_Groupon_Coupons"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201407240103104338200&quot;,&quot;mm_treatment&quot;:&quot;c079cc4a&quot;,&quot;mm_position&quot;:2}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/eWDYnPScx2yHee4zE3xC3w/freebies-text-col4-440x420" 
+                   data-bhc="asset:MegamindAbout_Groupon_Coupons"/>
+            </a>
+
+      </nav>
+</nav>
+
+            </header>
+        <div id="ls-banners"> 
+                  </div>
+
+        <section class="row" id="ls-in-app-messages">
+          <div class="twelve column">
+            <div id="in-app-messages" data-bhw="SiteAnnouncement" class="hide">
+                <div id="message-1311" class="in-app-msg-banner"
+                     data-bhc="announcement:1311">
+          <a href="/browse/?category=things-to-do&amp;category2=sightseeing"><img src="https://img.grouponcdn.com/deal/gCmuLoQYMc9JTwrVAVKcwX/maz-940x75.jpg"></a>
+        <a href="#" data-bhc="announcement-close:1311" class="hide-link"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+      
+
+
+<section class="main">
+
+  <div class="row">
+    
+    <div class="columns nine">
+        <div class="module deal-widget top-slot-widget" data-bhw="MegamindCustomersAlsoViewed" data-bhd="{&quot;mm_request_id&quot;:&quot;201407240112304347133&quot;,&quot;mm_treatment&quot;:&quot;3da5f74c&quot;,&quot;numDeals&quot;:3,&quot;mm_position&quot;:1}">
+    <div class="module-body">
+      <div class="section-head">
+        <h2>
+          Other Deals That Might Interest You
+        </h2>
+      </div>
+  
+      <div class="block-grid three-up">
+          <figure class="deal-card" data-bhc="deal:gg-mailpix-custom-aprons-and-cutting-boards-2" data-bh-viewport="respect">
+          <a href="//www.groupon.com/deals/gg-mailpix-custom-aprons-and-cutting-boards-2">
+            <img src="//img.grouponcdn.com/deal/6pFqz7S8SAtuDDeGpkSX/8m-960x582/v1/c217x131.jpg" />
+            <figcaption>
+              <p class="deal-title should-truncate">Mailpix Custom Aprons and Cutting Boards Available from $11.99—$19.99</p>
+              <p class="merchant-name should-truncate">Mailpix Custom Aprons and Cutting Boards</p>
+              <p class="deal-location should-truncate no-location"></p>
+              <p class="over-bought"><em>9 bought</em></p>
+              <p class="deal-price">
+                  <s class="original-price">$15</s>
+        From $11.99
+              </p>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="deal-card" data-bhc="deal:gg-hugo-by-hugo-boss-eau-de-toilette-spray-for-men" data-bh-viewport="respect">
+          <a href="//www.groupon.com/deals/gg-hugo-by-hugo-boss-eau-de-toilette-spray-for-men">
+            <img src="//img.grouponcdn.com/deal/vYyzBoQCf5ErNjhDRSap/t6-960x582/v1/c217x131.jpg" />
+            <figcaption>
+              <p class="deal-title should-truncate">Hugo by Hugo Boss Eau de Toilette Spray for Men from $29.99–$37.99</p>
+              <p class="merchant-name should-truncate">Hugo by Hugo Boss Eau de Toilette Spray for Men</p>
+              <p class="deal-location should-truncate no-location"></p>
+              <p class="over-bought"><em>Over 180 bought</em></p>
+              <p class="deal-price">
+                  <s class="original-price">$55</s>
+        From $29.99
+              </p>
+            </figcaption>
+          </a>
+        </figure>
+        <figure class="deal-card" data-bhc="deal:the-jennifer-day-spa-3-21" data-bh-viewport="respect">
+          <a href="//www.groupon.com/deals/the-jennifer-day-spa-3-21">
+            <img src="//img.grouponcdn.com/deal/vmAtrXHVnVjxspKyz3FH/Fu-2048x1242/v1/c217x131.jpg" />
+            <figcaption>
+              <p class="deal-title should-truncate">Signature Facial, Swedish Massage, or Spa Package with Both for One or Two at Jennifer Day Spa (Up to 75% Off)</p>
+              <p class="merchant-name should-truncate">The Jennifer Day Spa</p>
+              <p class="deal-location should-truncate">Multiple Locations</p>
+              <p class="over-bought"><em>1 bought</em></p>
+              <p class="deal-price">
+                  <s class="original-price">$110</s>
+        From $35
+              </p>
+            </figcaption>
+          </a>
+        </figure>
+    </div>
+    </div>
+  </div>
+            
+      <section
+        class="module deal"
+        data-bhw="FeaturedDeal"
+        data-bhc="deal:the-body-shop-november-central-jersey"
+        data-bhd="{&quot;featured&quot;:true}"
+        data-bh-viewport="respect">
+
+        <div class="module-body">
+              <hgroup>
+                <h2 class="deal-page-title">
+                  $10 for $20 Worth of Skincare, Bath, and Beauty Products at The Body Shop
+                </h2>
+              </hgroup>
+
+
+          <div class="row deal-container dotted-border">
+                <div id="purchase-cluster" class="four columns ">
+                
+                          <div class="buy ">
+        
+        
+        
+        
+        
+                <a>
+          <button class="btn-buy-big buy-button state-expired jeff-long-text" data-bhw="DealUnavailableExpired" data-bhd="{&quot;endAt&quot;:&quot;2012-11-18T04:59:59Z&quot;}"  disabled>
+            No Longer Available
+          </button>
+        </a>
+  </div>
+
+                
+                
+                      
+                        
+
+                
+
+                        <div class="buy-for-friend-module">
+                <div class="buy-for-friend icon-gift buy-for-friend-disabled" data-bhw="gift-disabled">
+                Give as a Gift
+            </div>    </div>
+
+                          <div class="deal-status">
+      <span class="qty-bought icon-group">
+        Over 500 bought
+      </span>
+  
+        <div class="qty-label">
+          Limited quantity available
+        </div>
+  </div>
+
+                
+                      <ul class="share-links" data-bhw="DealSharingButtons">
+        <li title="Share with email." class="email-share">
+        <a class="icon-email icon-background" href="mailto:?subject=I%20think%20you&#39;d%20like%20this%20Groupon%20deal%3A%20%2410%20for%20%2420%20Worth%20of%20Skincare%2C%20Bath%2C%20and%20Beauty%20Products%20at%20The%20Body%20Shop&amp;body=%2410%20for%20%2420%20Worth%20of%20Skincare%2C%20Bath%2C%20and%20Beauty%20Products%20at%20The%20Body%20Shop%0Ahttp%3A%2F%2Fwww.groupon.com%2Fdeals%2Fthe-body-shop-november-central-jersey%3Futm_campaign%3DUserReferral%26utm_medium%3Demail%26utm_source%3Duu&amp;utm_campaign=UserReferral&amp;utm_medium=email&amp;utm_source=uu" target="_blank"></a>
+      </li>
+        <script type="text/javascript">
+      window.fbAsyncInit = function() {
+        // init the FB JS SDK
+        FB.init({
+          appId      :  '7829106395',
+          channelUrl : '' + window.location.protocol + '//' + window.location.host + '/facebook/xd_receiver.html',
+          status     : true,
+          xfbml      : true
+        });
+      };
+    
+      // Load the SDK asynchronously
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/all.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+  
+      <li title="Like it!" class="facebook-share">
+        <div id="fb-root"></div>
+        <a class="icon-facebook icon-background" href="http://www.groupon.com/deals/the-body-shop-november-central-jersey"></a>
+      </li>
+      <li title="Share with Twitter." class="twitter-share">
+        <a class="icon-twitter icon-background" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.groupon.com%2Fdeals%2Fthe-body-shop-november-central-jersey&amp;text=%2410%20for%20%2420%20Worth%20of%20Skincare%2C%20Bath%2C%20and%20Beauty%20Products%20at%20The%20Body%20Shop%20-%20" target="_blank"></a>
+      </li>
+      <li title="Pin it!" class="pinterest-share">
+        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.groupon.com%2Fdeals%2Fthe-body-shop-november-central-jersey&amp;media=http%3A%2F%2Fimg.grouponcdn.com%2Fdeal%2FvTGcpqPdbRsvPB2xrd18%2FbQ-440x267%2Fv1%2Ft300x182.jpg&amp;description=Groupon%20-%20%24%2010%20for%20%2420%20Worth%20of%20Skincare%2C%20Bath%2C%20and%20Beauty%20Products%20at%20The%20Body%20Shop%20in%20%5Bmissing%20%7B%7Blocation%7D%7D%20value%5D.%20Groupon%20deal%20price%3A%20%2410" class="pin-it-button icon-pinterest icon-background"
+          count-layout="none" target="_blank" title="Pin it!">
+        </a>
+      </li>
+      <li title="Like it!" class="facebook-like">
+        <div class="fb-like" data-href="http://www.groupon.com/deals/the-body-shop-november-central-jersey" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+      </li>
+  </ul>
+
+                
+                </div>
+
+
+
+            <div id="deal-info" class="eight columns ">
+              <figure data-bhw="FeaturedImage" data-bhd="{&quot;height&quot;:&quot;267&quot;,&quot;width&quot;:&quot;440&quot;}" >
+                <img id="featured-image" src="http://img.grouponcdn.com/deal/vTGcpqPdbRsvPB2xrd18/bQ-440x267/v1/c460x279.jpg" />
+                  <figcaption id='deal-types' data-bhw='DealTypes'>
+      <ul class='tags'>
+          <li class="tooltip-trigger" data-tooltip-id="dealType-grooming" data-position="top" id="grooming" data-bhc="DealType:grooming">
+            <a  href="/login">Well-Groomed</a>
+          </li>
+        <li class="tooltip-trigger" data-tooltip-id="dealType-pampered" data-position="top" id="pampered" data-bhc="DealType:pampered">
+            <a  href="/login">Pampered</a>
+          </li>
+        <li class="tooltip-trigger" data-tooltip-id="dealType-good-for-gifting" data-position="top" id="good-for-gifting" data-bhc="DealType:good-for-gifting">
+            <a  href="/login">Good for Gifting</a>
+          </li>
+    </ul>
+    </figcaption>
+</figure>
+
+                  <div class="row" data-bhw="DealFineDetails">
+                      <div class='nutshell highlights six columns'>
+      <h3>In a Nutshell</h3>
+  
+      <p>Extensive library of socially responsible, celebrity-celebrated body, bath, skincare, and makeup products </p>
+    </div>
+    <div class="fine-print six columns">
+        <h3>The Fine Print</h3>
+  
+        <p>
+          Expires Dec 24th, 2012.
+          Limit 3/person. Limit 1/visit. Valid only in Body Shop retail stores in MA, CT, RI, NY, NJ, PA, DE, MD, & DC. Not valid online or at Ulta, Costco, Amazon or Beauty.com. Not valid for gift cards or "Love Your Body" membership card. Valid for sale items or w/ existing "Love Your Body" membership card. Non-transferable. Clients may provide email to The Body Shop to receive Beauty Card valid for 10% off through 2/28/13, starting w/ next purchase. Card signup not reqd; card offer not valid in CA or with "Love Your Body" membership card. Not valid on Black Friday (11/23/12). $20 min. purchase reqd.
+          Merchant is solely responsible to purchasers for the care and quality of the advertised goods and services.
+        </p>
+
+    </div>
+  </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+
+        <section class="write-up module" data-bhw="DealWriteUp">
+          <div class="module-body dotted-border">
+              <div class="row hide-diy-gift-card-msg">
+        <article class="eight columns pitch">
+            <p>For $10, this Groupon gets you $20 worth of in-store merchandise, including sale items, at <a href="http://www.thebodyshop-usa.com/">The Body Shop</a>. Each Groupon includes a free Beauty Card for customers who provide The Body Shop with their email addresses (except in California). This card is valid for 10% off any purchases through February 28, 2013. <a href="http://gr.pn/opApHf">Click here</a> to find your nearest retail location.<p></p>
+
+<p>A purveyor of bath and beauty products for more than three decades, The Body Shop stocks an array of finely wrought and socially responsible splendor serums. Patrons can cloak themselves with body butters ($6+) designed to keep their outermost surfaces soft and moisturized. The line includes fragrances such as satsuma, which introduces skin to an invigorating dose of essential citrus oil, as well as the antioxidant-rich shea body butter, which has been celebrated by celebrities including David Beckham and Reese Witherspoon. The Body Shop's innovations also include candles, diffusers, and other home fragrances.<p> </p>
+
+<p>Natural and sustainable materials used in products sourced through the company's Community Trade program allow products such as the tea-tree skin-clearing facial wash ($11/8.4 fl. oz.) and vitamin-E moisture serum ($21/1 fl. oz.) to keep skin surfaces smooth and refined and provide reliable income and market access to more than 25,000 people in marginalized locales around the globe.<p></p>
+
+              <div class="merchant-profile">
+          <h4>
+            The Body Shop
+          </h4>
+          <p> <p>To call The Body Shop a mere skin and body care store is to miss half of what makes it special. Late founder <a href="http://www.thebodyshop-usa.com/about-us/aboutus_history.aspx">Dame Anita Roddick</a> was a pioneer for ethical business practices; upon opening her first store in Brighton, England, in 1976, she developed company values such as "Defend Human Rights" and "Protect The Planet." She somehow balanced principles and profit, partnering in global campaigns with UNICEF, Greenpeace, Amnesty International, and the United Nations, all while ultimately expanding her brand into 2,500 locations in over 60 international markets. After her death in 2007, then-British Prime Minister Gordon Brown said, “She campaigned for green issues for many years before it became fashionable to do so and inspired millions to the cause by bringing sustainable products to a mass market. . . . She was an inspiration.”</p>
+
+<p>Indeed, the Body Shop exhibits an eco-friendliness and social consciousness that's hard to come by in a company of its size. Its products have been fair-trade since 1987, and its Against Animal Testing movement led to an EU-wide ban of animal testing of cosmetics. The products are made from ingredients harvested from around the world: shea butter from Ghana goes into body scrubs and butters, and Indian artisans craft wooden massagers and tote bags that are screenprinted by hand. But all that isn't to say the company's production practices overshadow its final products. Skincare treatments such as the brand’s iconic body butters, facial products, and gift collections often appear in <em>Allure</em>, <em>Marie Claire</em>, <em>Lucky</em>, <em>Seventeen</em> and other national publications.</p> </p>
+        </div>
+
+
+              <div class="discussion row">
+          <div class="text-right twelve columns end" data-bhw="AskQuestionCTA">
+            <a class="btn btn-small" href="/deals/the-body-shop-november-central-jersey/discussion">
+              Ask a Question
+            </a>
+      
+          </div>
+        </div>
+
+                  <div class="dem-callout" data-bhw="DailyEngagementModule" data-bhc="DEM:the-groupon-guide-to-new-plays">
+      <div class="dem-bubble">
+        <div class="dem-teaser-cat" data-modal-id="dem-modal" data-bhc="DEMcat:the-groupon-guide-to-new-plays"></div>
+        <a href="/groupon_says/the-groupon-guide-to-new-plays" class="dem-teaser-content" data-modal-id="dem-modal" data-bhc="DEMteaser:the-groupon-guide-to-new-plays">
+          <p>When will you see the new play "The Last Soldier of Queens"?</p>
+        </a>
+      </div>
+    </div>
+
+      
+        </article>
+      
+        <article class="four columns">
+      
+            <aside class="merchant-rail" data-bhw='MerchantBox'>
+          <h5>The Body Shop</h5>
+
+      
+          <div class="merchant-links" data-bhw='MerchantBoxWebsite'>
+      <ul>
+          <li>
+            <a href="http://www.thebodyshop-usa.com/" target="_blank" class="merchant-website">Company Website</a>
+          </li>
+    </ul>
+    </div>
+
+      
+          
+      
+      
+          
+        
+          </aside>
+
+      
+        </article>
+      </div>
+
+          </div>
+        </section>
+
+
+
+          <section class="in-and-around module" data-bhw="Crosslinks">
+            <div class='module-body'>
+              <div class='row'>
+                <h4>In and Around Piscataway</h4>
+        
+                <div class="row">
+                    <ul class='four columns'>
+                <li class='city-name'>Piscataway</li>
+                  <li><a href="/local/piscataway-nj/shopping"> Shopping</a></li>
+      <li><a href="/local/piscataway-nj/food-and-drink"> Food &amp; Drink</a></li>
+      <li><a href="/local/piscataway-nj/home-improvement"> Home Services</a></li>
+    <li class='city-name'>Edison</li>
+                  <li><a href="/local/edison/automotive"> Automotive</a></li>
+      <li><a href="/local/edison/beauty-and-spas"> Beauty &amp; Spas</a></li>
+      <li><a href="/local/edison/home-improvement"> Home Services</a></li>
+</ul>
+            <ul class='four columns'>
+                <li class='city-name'>Fords</li>
+                  <li><a href="/local/fords-nj/automotive"> Automotive</a></li>
+      <li><a href="/local/fords-nj/beauty-and-spas"> Beauty &amp; Spas</a></li>
+      <li><a href="/local/fords-nj/shopping"> Shopping</a></li>
+    <li class='city-name'>Highland Park</li>
+                  <li><a href="/local/highland-park-nj/shopping"> Shopping</a></li>
+      <li><a href="/local/highland-park-nj/food-and-drink"> Food &amp; Drink</a></li>
+      <li><a href="/local/highland-park-nj/home-improvement"> Home Services</a></li>
+</ul>
+            <ul class='four columns'>
+                <li class='city-name'>Metuchen</li>
+                  <li><a href="/local/metuchen-nj/shopping"> Shopping</a></li>
+      <li><a href="/local/metuchen-nj/food-and-drink"> Food &amp; Drink</a></li>
+      <li><a href="/local/metuchen-nj/beauty-and-spas"> Beauty &amp; Spas</a></li>
+    <li class='city-name'>Somerset</li>
+                  <li><a href="/local/somerset-nj/automotive"> Automotive</a></li>
+      <li><a href="/local/somerset-nj/beauty-and-spas"> Beauty &amp; Spas</a></li>
+      <li><a href="/local/somerset-nj/shopping"> Shopping</a></li>
+</ul>
+      </div>
+        
+              </div>
+            </div>
+          </section>
+    </div>
+
+        <aside class="three columns">
+            <iframe class='module' name="gpn_deal_page_ad_3_50" src="//ad.groupon.com/rules/3/50?skipMedium=true&amp;i_width=220&amp;i_height=210" frameBorder="no" scrolling="no" width="220" height="210"></iframe>
+
+            <div class="module deal-widget right-rail-deals-top" data-bhw="MegamindNewDeals" data-bhd="{&quot;mm_request_id&quot;:&quot;201407240112304347133&quot;,&quot;mm_treatment&quot;:&quot;8bc80864&quot;,&quot;numDeals&quot;:5,&quot;mm_position&quot;:1}">
+      <h3 class="module-title">
+      New Deals
+        <a class='see-all' data-bhw='MoreLink' href="/browse/san-jose?filters=new">See All</a>
+</h3>
+      <figure class="deal-card-mini" data-bhc="deal:eternal-health-wellness-acupuncture-center-1" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/eternal-health-wellness-acupuncture-center-1">
+          <img src="//img.grouponcdn.com/deal/cjqtYak9M8KoneXDnWBQ/Nm-2048x1229/v1/c85x51.jpg">
+        </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/eternal-health-wellness-acupuncture-center-1">$29 for $350 at Eternal Health Wellness Acupuncture Center</a>
+          San Jose
+        </figcaption>
+      </figure>
+      <figure class="deal-card-mini" data-bhc="deal:magic-house-cleaning-1" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/magic-house-cleaning-1">
+          <img src="//img.grouponcdn.com/deal/83bByVGzuVP4rzKWS4nL/Vj-2048x1242/v1/c85x51.jpg">
+        </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/magic-house-cleaning-1">$59 for $140 at Magic House Cleaning</a>
+          
+        </figcaption>
+      </figure>
+      <figure class="deal-card-mini" data-bhc="deal:korea-house-san-jose-1" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/korea-house-san-jose-1">
+          <img src="//img.grouponcdn.com/deal/bMh25X1GeZP7aJqqgFnp/ba-2048x1229/v1/c85x51.jpg">
+        </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/korea-house-san-jose-1">$30 for $59.79 at Korea House </a>
+          Santa Clara
+        </figcaption>
+      </figure>
+      <figure class="deal-card-mini" data-bhc="deal:gg-cuisinart-mini-prep-plus-4-cup-food-processor" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/gg-cuisinart-mini-prep-plus-4-cup-food-processor">
+          <img src="//img.grouponcdn.com/deal/cev35qT2uw7448JaW25o/6a-960x582/v1/c85x51.jpg">
+        </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/gg-cuisinart-mini-prep-plus-4-cup-food-processor">$34.99 for $90 at Cuisinart Mini-Prep Plus 4-Cup Food Processor</a>
+          
+        </figcaption>
+      </figure>
+      <figure class="deal-card-mini" data-bhc="deal:san-francisco-dungeon-1-san-jose" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/san-francisco-dungeon-1-san-jose">
+          <img src="//img.grouponcdn.com/deal/aPsbPgavGPetqk5SF59g/99-700x420/v1/c85x51.jpg">
+        </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/san-francisco-dungeon-1-san-jose">$31 for $52 at The San Francisco Dungeon</a>
+          Fisherman&#39;s Wharf
+        </figcaption>
+      </figure>
+  </div>
+
+            <iframe class='module' name="gpn_deal_page_ad_1_50" src="//ad.groupon.com/rules/1/50?skipMedium=true&amp;i_width=220&amp;i_height=210" frameBorder="no" scrolling="no" width="220" height="210"></iframe>
+
+          
+            <div class="groupon-promise module" data-bhw="GrouponPromise">
+        <a href="/groupon-promise">
+        <div class="promise-link">
+        </div>
+      </a>
+
+    <div class="promise-icon">
+      <span class="icon-pinky-left"></span>
+      <span class="icon-pinky-right"></span>
+    </div>
+
+  
+        <h3 class="module-title">Our Promise to You</h3>
+
+      <div class="module-body">
+  
+          <p>We're confident in your Groupon experience and back it with the Groupon Promise. <a href='/groupon-promise'>Learn More.</a></p>
+    </div>
+    </div>
+</aside>
+
+      <div id="dealType-grooming" class="tooltip">
+        <div class="indicator"></div>
+        <div class="tooltipContent">
+          Upkeep essentials, such as electric toothbrushes and laser hair removal 
+        </div>
+      </div>
+  <div id="dealType-pampered" class="tooltip">
+        <div class="indicator"></div>
+        <div class="tooltipContent">
+          Indulgent delights, from pastries and flowers to massages and mani-pedis
+        </div>
+      </div>
+  <div id="dealType-good-for-gifting" class="tooltip">
+        <div class="indicator"></div>
+        <div class="tooltipContent">
+          Great gifts for every occasion
+        </div>
+      </div>
+              <div id="dem-modal" class="modal" data-bhw='DEMmodal'>
+    <div class="modal-body" data-bhc='DEMmodal:the-groupon-guide-to-new-plays'>
+      <div class="modal-title">
+        <h3>Daily Engagement Module</h3>
+          <ul class="share-links" data-bhw="DEMShareLinks">
+              <li title="Share with Twitter." class="twitter-share">
+        <a class="icon-twitter icon-background" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fgroupon.com%2Fgroupon_says%2Fthe-groupon-guide-to-new-plays&amp;text=When%20will%20you%20see%20the%20new%20play%20%22The%20Last%20Soldier%20of%20Queens%22%3F%20%20-%20" target="_blank"></a>
+      </li>
+      <li title="Pin it!" class="pinterest-share">
+        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fgroupon.com%2Fgroupon_says%2Fthe-groupon-guide-to-new-plays&amp;media=http://assets2.grouponcdn.com/images/groupon/groupon_says/cat.png&amp;description=When%20will%20you%20see%20the%20new%20play%20%22The%20Last%20Soldier%20of%20Queens%22%3F%20" class="pin-it-button icon-pinterest icon-background"
+          count-layout="none" target="_blank" title="Pin it!">
+        </a>
+      </li>
+      <li title="Like it!" class="facebook-like">
+        <div class="fb-like" data-href="http://groupon.com/groupon_says/the-groupon-guide-to-new-plays" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+      </li>
+  </ul>
+        <a href="#" class="icon-x close-modal"></a>
+      </div>
+      <div id="dem-modal-content">
+          <h4>The Groupon Guide to: New Plays</h4>
+        <div class="dem-content">
+          <p>Anyone who thinks live theater is a dying art hasn't experienced the magic of an actor creating an explosion on stage using only sounds from his mouth or changing into a different character using only a switch of the hat. Take a look at some of the fascinating contemporary plays coming to a theater near you:</p>
+
+<p><em>The Sanders Family Chronicles</em>: When the family dog dies, the Sanders family's 14 adult children must return to the small Southern town where they grew up. Getting these 14 very different people to agree on one dog's burial plot won't be easy, and you can bet secrets are going to be revealed.</p>
+
+<p><em>Oh! To Move! or The Weather in Cincinnati Has Never Been So Clear</em>: Don't ever say an old lady can't dance. Ever since her husband passed, Eva Marie can't stop boppin' to the beat. This 67-year-old has a new lease on life, and she's swingin' her stuff at every pub in town when she meets a stranger who loves dancing just as much as she does. This feel-good hit has critics saying "Go, Eva Marie, go!"</p>
+
+<p><em>The Last Soldier of Queens</em>: When a major corporation comes in and wants to turn all of Queens into a Dormart, a regular working-class man named Reginald Guy stands his ground. As Dormart razes the town to prepare for construction, Reg Guy watches his hometown transform into a postapocalyptic wasteland. It all comes to a head in a climatic showdown between Reg and his nemesis, The Bulldozer Monster.</p>
+        </div>
+      </div>
+      <div class="modal-footer dem-footer-cat">
+      </div>
+    </div>
+  </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+
+</section>
+
+
+
+
+
+<script type="text/javascript" src="/deals/js/locale.js?country=US&amp;locale=en_US&amp;version=f12478a379"></script>
+<script type="text/javascript" src="/deals/assets/main-cf3f3b7082.js"></script>
+<script>
+  var payload = {"rootUrl":"/deals","csrf":"f2555e10161611e48152696052c671df","giftButton":{"cookieDomain":".groupon.com"},"buyButton":{},"cartStatus":false,"carousel":{"dealId":"the-body-shop-november-central-jersey","dealImages":[{"baseURL":"http://img.grouponcdn.com/deal/vTGcpqPdbRsvPB2xrd18/bQ-440x267/v1/","media":"http://img.grouponcdn.com/deal/vTGcpqPdbRsvPB2xrd18/bQ-440x267/v1/c460x279.jpg","thumb":"http://img.grouponcdn.com/deal/vTGcpqPdbRsvPB2xrd18/bQ-440x267/v1/t100x100.jpg"}],"enabled":true,"mediaHeight":279,"dealVideos":[],"videoPosition":0,"kalturaScriptUrl":"//www.kaltura.com/p/1302621/sp/130262100/embedIframeJs/uiconf_id/11486911/partner_id/1302621","ooyalaScriptUrl":"//player.ooyala.com/v3/4e60e82cdbc14def8b05623206f02388","forceVideos":false,"imageZoomState":false},"division":{"timezone":"Pacific Time (US & Canada)","name":"San Jose","defaultLocale":"en","lng":-121.895,"country":"USA","lat":37.3394,"state":{"abbreviation":"CA"},"areas":[],"id":"san-jose","timezoneIdentifier":"America/Los_Angeles"},"categoriesBaseUrl":"/browse/san-jose","dealTypes":[{"id":"grooming","el":".tags li#grooming"},{"id":"pampered","el":".tags li#pampered"},{"id":"good-for-gifting","el":".tags li#good-for-gifting"}]};
+
+  var modules = [
+    BuyButton, CountdownTimer, ExternalLinks, Carousel, DealTypes, GMap, Gift,
+    SearchBar, ChannelTabs, FacebookPromNight, DealController, IframeLogin, MultiOptionModal,
+
+
+
+      BookingWrapper, VariationsWidget
+
+  ];
+
+  Tracking.Initializer().run(modules, payload, function() {
+    Groupon.Performance.pageReady();
+  });
+</script>
+
+
+      <footer class="footer-i18n">
+        <div class="row res-fo-wrapper">
+          <div class="columns nine footer-i18n-payload">
+            <div class="row footer-i18n-sitemap footer-i18n-flexLinks"
+                 data-bhw="FooterSitemap">
+                <div class="columns three footer-links">
+                  <h6 class="footer-link-headline">Company</h6>
+                    <a href="/about" data-bhw="FooterLinkAbout">About Groupon</a>
+              <a href="http://jobs.groupon.com" data-bhw="FooterLinkJobs">Jobs</a>
+              <a href="/blog" data-bhw="FooterLinkBlog">Blog</a>
+              <a href="/press" data-bhw="FooterLinkPress">Press</a>
+              <a href="http://investor.groupon.com" data-bhw="FooterLinkInvestorRelations">Investor Relations</a>
+          </div>
+          <div class="columns three footer-links">
+                  <h6 class="footer-link-headline">Work with Groupon</h6>
+                    <a href="https://www.grouponworks.com/get-featured/" data-bhw="FooterLinkDeal">Run a Groupon Deal</a>
+              <a href="http://www.grouponworks.com/merchant-solutions/payments" data-bhw="FooterLinkPayments">Accept Groupon Payments</a>
+              <a href="/pages/api" data-bhw="FooterLinkDevelopers">Developers / API</a>
+              <a href="http://www.grouponaffiliate.com/" data-bhw="FooterLinkAffiliates">Affiliate Program</a>
+              <a href="http://grassroots.groupon.com" data-bhw="FooterLinkCommunity">Help Your Community</a>
+          </div>
+          <div class="columns three footer-links">
+                  <h6 class="footer-link-headline">More</h6>
+                    <a href="/customer_support" data-bhw="FooterLinkCustomerSupport">Customer Support</a>
+              <a href="/faq" data-bhw="FooterLinkFaq">FAQ</a>
+              <a href="/coupons" data-bhw="FooterLinkCoupons">Coupons</a>
+              <a href="https://www.groupon.com/giftcards" data-bhw="FooterLinkGiftcards">Gift Cards</a>
+              <a href="http://www.ideeli.com/" data-bhw="FooterLinkIdeeli">ideeli</a>
+          </div>
+        <div class="columns three">
+                <h6 class="footer-link-headline">Follow Us</h6>
+          <div class="follow-us">
+            <a title="Twitter" class="icon-twitter" data-bhw="FooterSocialTwitter" href="http://twitter.com/groupon"></a>
+            <a title="Facebook" class="icon-facebook" data-bhw="FooterSocialFacebook" href="http://facebook.com/groupon"></a>
+            <a title="RSS Feed" class="icon-feed" data-bhw="FooterSocialFeed" href="http://feeds.feedburner.com/groupon"></a>
+          </div>
+        </div>
+            </div>
+      
+            <div class="row">
+              <div class="columns twelve">
+      
+                <div class="footer-i18n-seo" data-bhw="FooterSeo">
+            <h6>Unbeatable Deals for Local&nbsp;Adventures</h6>
+            <p>
+              Groupon is an easy way to get huge discounts while discovering fun activities in your city. Our daily local deals consist of <a data-bhw="FooterSeoUSLinkRestaurants" href="/local/restaurants">restaurants</a>, <a data-bhw="FooterSeoUSLinkSpas" href="/local/beauty-and-spas">spas</a>, <a data-bhw="FooterSeoUSLinkActivities" href="/local/things-to-do">things to do</a>, <a data-bhw="FooterSeoUSLinkNightlife" href="/local/nightlife">nightlife</a>, <a data-bhw="FooterSeoUSLinkMassages" href="/local/massage">massages</a>, <a data-bhw="FooterSeoUSLinkSalons" href="/local/hair-salons">salons</a>, <a data-bhw="FooterSeoUSLinkHotels" href="/getaways">hotels</a>, as well as health and beauty tips from our very own <a data-bhw="FooterSeoUSLinkFavin" href="/articles/favin-the-maven">Favin the Maven</a>.
+            </p>
+          </div>
+
+                <div class="footer-copyright" data-bhw="FooterLegalDocs">
+                  &copy; 2014 Groupon, Inc.
+                  All Rights Reserved.
+                  <span class="footer-copyright-links">
+                      <a href="/terms" data-bhw="FooterLegalLinkTermsOfUse">Terms of Use</a>
+                <a href="/privacy" data-bhw="FooterLegalLinkPrivacyPolicy">Privacy Policy</a>
+                <a href="/licenses" data-bhw="FooterLegalLinkLicenses">Licenses</a>
+            </span>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="columns three footer-i18n-promos" data-bhw="FooterWidgets">
+            <a href="/mobile?utm_source=gp&utm_medium=footer&utm_campaign=mlusers"
+               class="footer-i18n-promo footer-i18n-promo-mobile"
+               title="Groupon for mobile devices"
+               data-bhw="FooterWidgetMobileApp">
+              <h6 class="footer-cta-headline">Get the Groupon Mobile App&nbsp;<i class="icon-arrow-right-large"></i></h6>
+            </a>
+            <a href="http://www.grouponworks.com"
+               class="footer-i18n-promo footer-i18n-promo-works"
+               title="Groupon Works"
+               data-bhw="FooterWidgetGrouponWorksApp">
+              <span class="icon-groupon footer-i18n-works-logo">Works</span>
+              <h6 class="footer-cta-headline">Get New Customers and Grow Your Business&nbsp;<i class="icon-arrow-right-large"></i></h6>
+            </a>
+          </div>
+      
+        </div>
+      </footer>
+      <div class="touch-footer hide">
+        <a class="row" href="">
+          Go to mobile site
+        </a>
+      </div>
+
+    </div>
+    
+    
+  </body>
+</html>
