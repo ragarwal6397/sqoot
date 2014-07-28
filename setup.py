@@ -8,7 +8,7 @@ import sqoot
 
 setup(
     name='sqoot',
-    version='20140727'
+    version='20140727',
     author='Rajat Agarwal',
     author_email='rajatagarwal@alumni.purdue.edu',
     url='https://github.com/ragarwal6397',
