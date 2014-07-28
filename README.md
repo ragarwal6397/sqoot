@@ -1,4 +1,4 @@
-# sqoot
+# Sqoot
 
 ## Acknowledgement
 This python wrapper for sqoot takes inspiration from the foursquare wrapper created by Mike Lewis here: https://github.com/mLewisLogic/foursquare 
