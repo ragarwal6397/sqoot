@@ -27,7 +27,7 @@ class DealsEndpointTestCase(BaseEndpointTestCase):
                                "latitude":    37.390751,
                                "longitude":   -122.080953
                               },
-                  #"radius": 11, #TODO::: Doesn't seem to work
+                  "radius": 10000, #TODO::: Doesn't seem to work
                   #"category_slugs": [], # [] means you're restricting to a 0 set and it would imply 0 results
                   #"provider_slugs": [], # [] means you're restricting to a 0 set and it would imply 0 results
                   "updated_after": "2013-11-04T16:18:04Z",
@@ -36,6 +36,12 @@ class DealsEndpointTestCase(BaseEndpointTestCase):
         response = self.api.deals(params)
         print "Response: "
         print response
+        deals = response['data']['deals']
+        print str(len(deals))+" total deals:"
+        for i in range(len(deals)):
+            deal = deals[i]['deal']
+            print deal['title']
+
 
 
     def test_deals_default(self):
@@ -55,6 +61,11 @@ class DealsEndpointTestCase(BaseEndpointTestCase):
         response = self.api.deals(params)
         print "Response: "
         print response
+        deals = response['data']['deals']
+        print str(len(deals))+" total deals:"
+        for i in range(len(deals)):
+            deal = deals[i]['deal']
+            print deal['title']
 
 
     def test_deal(self):

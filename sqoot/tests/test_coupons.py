@@ -27,7 +27,7 @@ class CouponsEndpointTestCase(BaseEndpointTestCase):
                                "latitude":    37.390751,
                                "longitude":   -122.080953
                               },
-                  #"radius": 11, #TODO::: Doesn't seem to work
+                  "radius": 1000,
                   #"category_slugs": [], # [] means you're restricting to a 0 set and it would imply 0 results
                   #"provider_slugs": [], # [] means you're restricting to a 0 set and it would imply 0 results
                   "updated_after": "2013-11-04T16:18:04Z",
